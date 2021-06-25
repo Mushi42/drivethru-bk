@@ -1,30 +1,35 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-
-var indexRouter = require('./routes/index');
-
-//Process Configuration File
+const express = require("express");
+const logger = require("morgan");
+const uplodeFile = require("express-fileupload");
+const path = require("path");
+const cors = require('cors');
 require("dotenv").config();
 
-// Database Connection
-require("./config/database");
-
-var app = express();
-
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.use('/api', indexRouter);
-app.use('*', (req, res, err) => {
-  if (err) console.error(err)
-  res.send("Welcome to Workers Backend....s");
-})
+
+require('./config/dbConfig');
+
+const indexRouter = require("./router");
+
+const app = express();
+
+require("./config/dbConfig");
+
+app.use(uplodeFile());
+app.use(cors())
+app.use(logger("dev"));
+
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ limit: '50mb', extended: true, parameterLimit: 50000 }));
+
+app.use("/api/v1", indexRouter);
+
+app.use("*", (req, res) => {
+  res.status(404).json({
+    errorCode: 404,
+    message: "End Point Not Found!"
+  });
+});
 
 module.exports = app;

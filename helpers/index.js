@@ -1,5 +1,8 @@
+const userHelper = require('./user.helper');
 const { setResponse } = require('./response.helper');
 
+
 module.exports = {
-    setResponse
+  userHelper,
+  setResponse,
 };

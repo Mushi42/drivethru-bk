@@ -1,3 +1,4 @@
 module.exports = {
-    USER_MODEL: require('./users.model')
+    User: require('./User.model'),
+    Ticket: require('./Ticket.model'),
 }

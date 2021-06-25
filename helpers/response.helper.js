@@ -1,6 +1,7 @@
+
 const success = (res, message, data) => {
     res.status(200).json({
-        status: 'success',
+        status: 'Success',
         message,
         data
     });
@@ -20,10 +21,19 @@ const notFound = (res) => {
     });
 };
 
-const serverError = (res) => {
-    res.status(202).json({
+const serverError = (res, data) => {
+    // console.log("server Error", data.message)
+    if (data.message.endsWith('24 hex characters')) {
+        return bad(res, 'Please provide the valid Id')
+    }
+    if (data.message.startsWith('Cast to ObjectId')) {
+        return bad(res, 'Please provide the valid Id')
+    }
+
+    res.status(500).json({
         status: 'Error',
         message: 'Internal Server Error',
+        data: data.stack
     });
 };
 
@@ -39,7 +49,7 @@ const setResponse = (res, { type, message = '', data = {} }) => {
             notFound(res)
             break;
         case 'serverError':
-            serverError(res)
+            serverError(res, data)
             break;
 
         default:

@@ -1,68 +1,164 @@
-const { USER_MODEL } = require('../models');
+const _ = require("lodash");
 
-const create = async ({ body }) => {
-    try {
-        const reqData = body;
-        const user = await USER_MODEL.findOne({ name: reqData.name });
-        if (!user) {
-            const data = await USER_MODEL.create(reqData);
-            return { type: 'success', message: `${data.name.toUpperCase()} is created successfully`, data }
-        }
-        return { type: 'bad', message: `${reqData.name} USER_MODEL exist!` }
+const { User } = require("../models");
+const mongoose = require('mongoose');
+const { userHelper, uplodingHelper } = require("../helpers");
 
-    } catch (error) {
-        throw error;
-    }
+const UserService = {}
+
+UserService.signUp = async (req) => {
+  try {
+    const reqData = req.body;
+    const userExist = await Promise.all([
+      User.findOne({ email: reqData.email }),
+      User.findOne({ username: reqData.username }),
+      User.findOne({ contact: reqData.contact }),
+    ])
+    if (userExist[0]) return { type: "bad", message: "Email already exist!" };
+    if (userExist[1]) return { type: "bad", message: "Username already exist!" };
+    if (userExist[2]) return { type: "bad", message: "Contact already exist!" };
+
+    reqData.role = 'customer';
+    reqData.password = await userHelper.hashPassword(reqData.password)
+    const data = new User(reqData);
+
+    await data.save();
+
+
+    return { type: "success", message: `${data.firstName} account created`, data };
+  } catch (error) {
+    throw error;
+  }
 };
 
-const findOne = async ({ params }) => {
-    try {
-        const data = await USER_MODEL.findOne({ _id: params.userId })
-        if (data) return { type: 'success', message: `${data.name.toUpperCase()} found`, data }
-        else return { type: 'bad', message: `${data.name.toUpperCase()} USER_MODEL not exist!` }
-    } catch (error) {
-        throw error;
-    }
+UserService.createStaff = async (req) => {
+  try {
+    const reqData = req.body;
+    const userExist = await Promise.all([
+      User.findOne({ email: reqData.email }),
+      User.findOne({ username: reqData.username }),
+      User.findOne({ contact: reqData.contact }),
+    ])
+    if (userExist[0]) return { type: "bad", message: "Email already exist!" };
+    if (userExist[1]) return { type: "bad", message: "Username already exist!" };
+    if (userExist[2]) return { type: "bad", message: "Contact already exist!" };
+
+    reqData.role = 'staff';
+    reqData.password = await userHelper.hashPassword(reqData.password)
+    reqData.createdBy = req.user.userId;
+    const data = new User(reqData);
+
+    await data.save();
+
+
+    return { type: "success", message: `${data.firstName} account created`, data };
+  } catch (error) {
+    throw error;
+  }
 };
 
-const findAll = async (req) => {
-    try {
-        const options = req.query;
-        let data;
-        if (options.name) {
-            data = await USER_MODEL.find({});
-        } else data = await USER_MODEL.find(options);
-        if (data.length) return { type: 'success', message: `User found`, data }
-        else return { type: 'bad', message: `User not found` }
-    } catch (error) {
-        throw error;
+UserService.findOne = async (req) => {
+  try {
+    const { params } = req;
+    const data = await User.findById(params.userId).populate('createdBy');
+    if (data) {
+      return { type: "success", message: "user found!", data };
+    } else {
+      return { type: "bad", message: "user not found!", data };
     }
+  } catch (error) {
+    throw error;
+  }
 };
 
-const update = async ({ params, body }) => {
-    try {
-        const _id = params.userId;
-        const data = await USER_MODEL.findByIdAndUpdate(_id, body, { new: true });
-        if (data) return { type: 'success', message: `${data.shopName.toUpperCase()} shop Updated`, data }
-        else return { type: 'bad', message: `Shops not found` }
-
-    } catch (error) {
-        throw error;
+UserService.signIn = async ({ body }) => {
+  try {
+    const { username, password } = body;
+    const user = await User.findOne({
+      $or: [{ username: username }, { contact: username }, { email: username }],
+    }).select("+password");
+    if (
+      !user ||
+      !(await userHelper.comparewPassword(password, user.password))
+    ) {
+      return { type: "bad", message: "Please provide valid credentials!" };
     }
+    user.password = undefined;
+    return {
+      type: "success",
+      message: "You are logged In Successfully",
+      data: { token: `Bearer ${await userHelper.generarteToken(user)}` },
+    };
+  } catch (error) {
+    // console.log('Error', error);
+    throw error;
+  }
 };
 
-const purge = async (req) => {
-    try {
 
-    } catch (error) {
-        throw error;
+UserService.findAll = async ({ body, query }) => {
+  try {
+    const options = query;
+    const data = await User.find(options).populate('createdBy');
+    if (data.length > 0) {
+      return { type: "success", message: "Record found!", data };
+    } else {
+      return { type: "bad", message: "Record not found!" };
     }
+  } catch (error) {
+    throw error;
+  }
 };
 
-module.exports = {
-    create,
-    findOne,
-    findAll,
-    update,
-    purge
-}
+UserService.update = async ({ params, body }) => {
+  try {
+    const _id = params.userId;
+
+    if (body.password) body.password = await userHelper.hashPassword(body.password);
+
+    if (body.email) {
+      const emailFound = await User.findOne({ email: body.email });
+      if (emailFound) return { type: "bad", message: "Email already exist!" };
+    }
+    if (body.username) {
+      const emailFound = await User.findOne({ username: body.username });
+      if (emailFound) return { type: "bad", message: "username already exist!" };
+    }
+    if (body.contact) {
+      const emailFound = awaitUser.findOne({ contact: reqData.contact });
+      if (emailFound) return { type: "bad", message: "contact already exist!" };
+
+    }
+
+    const data = await User.findByIdAndUpdate(_id, body, { new: true });
+    if (data)
+      return {
+        type: "success",
+        message: `${data.firstName.toUpperCase()} user Updated`,
+        data,
+      };
+    else return { type: "bad", message: `user not found` };
+  } catch (error) {
+    console.log(error);
+    throw error;
+  }
+};
+
+UserService.purge = async ({ params }) => {
+  try {
+    const _id = params.userId;
+    const data = await User.findByIdAndDelete(_id);
+    if (data) {
+      return {
+        type: "success",
+        message: `${data.firstName.toUpperCase()} user Deleted`,
+        data
+      };
+    } else return { type: "bad", message: `user not found` };
+  } catch (error) {
+    throw error;
+  }
+};
+
+
+module.exports = UserService;
