@@ -8,7 +8,9 @@ const UploadService = {}
 
 UploadService.uploadNationalExcelSheet = async (req) => {
     try {
-        return { type: "success", message: `Excel Sheet Uploaded`, data:{} };
+        const { sheet } = req.files
+
+        return { type: "success", message: `Excel Sheet Uploaded`, data: {} };
     } catch (error) {
         throw error;
     }

@@ -10,8 +10,8 @@ const router = express.Router();
 
 router.use('/users', usersRoutes);
 router.use('/tickets', ticketsRoutes);
-router.use('/university', univeristyRoutes);
-router.use('/upload', uploadRoutes);
+// router.use('/university', univeristyRoutes);
+router.use('/uploads', uploadRoutes);
 
 
 
