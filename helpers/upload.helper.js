@@ -1,5 +1,8 @@
 const readXlsxFile = require('read-excel-file/node');
 const fs = require('fs');
+
+
+/* 
 const slugify = require('slugify')
 
 const option = {
@@ -10,49 +13,91 @@ const option = {
     locale: 'vi'       // language code of the locale to use
 }
 
-console.log('------------------', slugify('SSOM Stinr', option))
+console.log('------------------', slugify('SSOM Stinr', option));
+ */
 
-// File path.
-readXlsxFile('./Universities Data.xlsx').then((rows) => {
-    // `rows` is an array of rows
-    // each row being an array of cells.
+exports.excelFile = excelFile = excelFile => new Promise((resolve, reject) => {
 
+    // File path.
+    readXlsxFile(excelFile).then((rows) => {
 
-    let records = [];
-    // let obj = { university_name: '', departments: [], };
+        let records = [];
+        rows.forEach((element, index) => {
+            let obj = {};
+            if (index != 0) {
 
-    let headings = rows.slice(0, 1)[0];
-    let temp = null;
-    rows.forEach((element, index) => {
-        let obj = {};
-        if (index != 0) {
+                /*
+                name
+                department
+                city
+                eligibility
+                date
+                test
+                years_of_graduation 
+                 */
 
-            if (element.filter(ele => ele=== null).length != 6 ) {
+                if (element.filter(ele => ele === null).length != 6) {
 
-                obj.university_name = element[0];
-                obj.department = element[1];
-                obj.eligibility = element[2];
-                obj.date = element[3];
-                obj.test = element[4];
-                obj.years_of_graduation = element[5];
-    
-                records.push(obj);
+                    obj.name = !element[0] ? "Coming soon" : element[0];
+                    obj.department = !element[1] ? "Coming soon" : element[1];
+                    obj.eligibility = !element[2] ? "Coming soon" : element[2];
+                    obj.date = !element[3] ? "Coming soon" : element[3];
+                    obj.test = !element[4] ? "Coming soon" : element[4];
+                    obj.years_of_graduation = !element[5] ? "Coming soon" : element[5];
+                    obj.city = 'comming soon';
+                    records.push(obj);
+                }
+
             }
+        });
 
+        if (records.length) {
+            fs.unlinkSync(excelFile)
+            resolve(records)
         }
-    });
 
 
-    console.log(headings);
-    console.log('data', records);
 
-    let data = JSON.stringify(records);
-    fs.writeFileSync('student-2.json', data);
+        // console.log(headings);
+        // console.log('data', records);
+
+        // let data = JSON.stringify(records);
+        // fs.writeFileSync('student-2.json', data);
+
+    }).catch(err => reject(err));
 
 })
 
+exports.uploadFile = uploadFile = (file, fileSize, fileType, fileStoragePath) => new Promise((resolve, reject) => {
+    const fileName = file.name.split('.')
+    if (file.size / 1000000 > fileSize) {
+        const response = { status: false, message: `Your file size is greater than ${fileSize}MB` }
+        resolve(response)
+    } else if (fileName[fileName.length - 1] !== fileType) {
+        const response = { status: false, message: `Please upload ${fileType} file!` }
+        resolve(response)
+    }
+    const filePathWithFileName = `public/${fileStoragePath}/${file.name}`;
 
-/* 
+    /* If Dir not exist */
+    if (!fs.existsSync(`public/${fileStoragePath}`)) {
+        fs.mkdirSync(`public/${fileStoragePath}`);
+    }
+
+    /* File Stored */
+    file.mv(filePathWithFileName, function (err) {
+        if (err) {
+            reject(err)
+        }
+        const response = { status: true, message: `file uploaded!`, data: { filePathWithFileName: filePathWithFileName.replace('public/', '') } }
+        resolve(response)
+    });
+});
+
+
+
+
+/*
     [ 'University Name',
   'Departments',
   'Eligibility',

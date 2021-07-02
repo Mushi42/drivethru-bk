@@ -8,6 +8,7 @@ const success = (res, message, data) => {
 };
 
 const bad = (res, message) => {
+    
     res.status(400).json({
         status: 'Error',
         message
