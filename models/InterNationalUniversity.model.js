@@ -9,8 +9,13 @@ const collectionSchema = new mongoose.Schema({
         type: String,
         trim: true
     },
+    country: {
+        type: String
+    },
     department: {
         type: String,
+        enum: ['pending', 'active', 'completed'],
+        default: 'pending',
         trim: true
     },
     city: {
@@ -49,4 +54,4 @@ const collectionSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 
-module.exports = mongoose.model("NationalUniversity", collectionSchema);;
+module.exports = mongoose.model("InternalNationalUniversity", collectionSchema);;

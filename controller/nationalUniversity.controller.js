@@ -13,10 +13,29 @@ NationalUniversityController.create = async (req, res) => {
     }
 };
 
+NationalUniversityController.bulkCreate = async (req, res) => {
+    try {
+        const data = await NationalUniversityService.bulkCreate(req);
+        setResponse(res, data)
+    } catch (error) {
+        console.log('Error ', error);
+        setResponse(res, { type: 'serverError', data: error })
+    }
+};
+
 
 NationalUniversityController.findAll = async (req, res) => {
     try {
         const data = await NationalUniversityService.findAll(req);
+        setResponse(res, data);
+    } catch (error) {
+        setResponse(res, { type: 'serverError', data: error })
+    }
+};
+
+NationalUniversityController.get_uni_dep_city = async (req, res) => {
+    try {
+        const data = await NationalUniversityService.get_uni_dep_city(req);
         setResponse(res, data);
     } catch (error) {
         setResponse(res, { type: 'serverError', data: error })
