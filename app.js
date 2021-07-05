@@ -34,3 +34,5 @@ app.use("*", (req, res) => {
 });
 
 module.exports = app;
+
+// https://www.getpostman.com/collections/f181800672b248726f3f
