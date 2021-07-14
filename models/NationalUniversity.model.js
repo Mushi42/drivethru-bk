@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 const collectionSchema = new mongoose.Schema({
     uni_code: {
-        type:String,
+        type: String,
     },
     name: {
         type: String,

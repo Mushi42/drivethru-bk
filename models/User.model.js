@@ -46,6 +46,8 @@ const userSchema = new mongoose.Schema({
     enum: ["admin", "customer", "staff"],
     default: "customer",
   },
+  nationalProfile: {},
+  interNationalProfile: {},
   password: {
     type: String,
 
