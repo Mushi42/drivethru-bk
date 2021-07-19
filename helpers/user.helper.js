@@ -31,9 +31,14 @@ const generarteToken = (user) => {
     }, process.env.JWT_SECRET_KEY, { expiresIn: process.env.JWT_SESSION_TIME });
 };
 
+const sendUser = (user) => {
+    return {_id: user._id, email: user.email, contact: user.contact,}
+};
+
 module.exports = {
     hashPassword,
     comparewPassword,
     formateData,
-    generarteToken
+    generarteToken,
+    sendUser
 };

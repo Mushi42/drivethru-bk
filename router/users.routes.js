@@ -13,7 +13,6 @@ router.use(protectRoutes);
 router.get('/', userController.findAll);
 router.get('/:userId', userController.findOne);
 router.put('/:userId', userController.update);
-router.post('/createStaff', adminOnly, userController.createStaff);
 router.delete('/:userId', adminOnly, userController.purge);
 
 

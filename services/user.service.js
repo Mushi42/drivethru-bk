@@ -3,6 +3,8 @@ const _ = require("lodash");
 const { User } = require("../models");
 const mongoose = require('mongoose');
 const { userHelper, uplodingHelper } = require("../helpers");
+const Email = require('../utils/email.util');
+
 
 const UserService = {}
 
@@ -11,51 +13,21 @@ UserService.signUp = async (req) => {
     const reqData = req.body;
     const userExist = await Promise.all([
       User.findOne({ email: reqData.email }),
-      User.findOne({ username: reqData.username }),
       User.findOne({ contact: reqData.contact }),
     ])
     if (userExist[0]) return { type: "bad", message: "Email already exist!" };
-    if (userExist[1]) return { type: "bad", message: "Username already exist!" };
-    if (userExist[2]) return { type: "bad", message: "Contact already exist!" };
+    if (userExist[1]) return { type: "bad", message: "Contact already exist!" };
 
-    reqData.role = 'customer';
+    reqData.role = 'student';
     reqData.password = await userHelper.hashPassword(reqData.password)
-    const data = new User(reqData);
-
-    await data.save();
-
-
-    return { type: "success", message: `${data.firstName} account created`, data };
+    const data = await User.create(reqData);
+    // new Email(data).sendWelcome()
+    return { type: "success", message: `Account created`, data: userHelper.sendUser(data) };
   } catch (error) {
     throw error;
   }
 };
 
-UserService.createStaff = async (req) => {
-  try {
-    const reqData = req.body;
-    const userExist = await Promise.all([
-      User.findOne({ email: reqData.email }),
-      User.findOne({ username: reqData.username }),
-      User.findOne({ contact: reqData.contact }),
-    ])
-    if (userExist[0]) return { type: "bad", message: "Email already exist!" };
-    if (userExist[1]) return { type: "bad", message: "Username already exist!" };
-    if (userExist[2]) return { type: "bad", message: "Contact already exist!" };
-
-    reqData.role = 'staff';
-    reqData.password = await userHelper.hashPassword(reqData.password)
-    reqData.createdBy = req.user.userId;
-    const data = new User(reqData);
-
-    await data.save();
-
-
-    return { type: "success", message: `${data.firstName} account created`, data };
-  } catch (error) {
-    throw error;
-  }
-};
 
 UserService.findOne = async (req) => {
   try {

@@ -3,21 +3,10 @@ const crypto = require('crypto');
 
 
 const userSchema = new mongoose.Schema({
-  firstName: {
-    type: String,
-
-    trim: true
-  },
-  lastName: {
-    type: String,
-
-    trim: true
-
-  },
+  
   username: {
     type: String,
     trim: true,
-
   },
   email: {
     type: String,
@@ -29,12 +18,7 @@ const userSchema = new mongoose.Schema({
     trim: true,
     require: true,
   },
-  address: {
-    type: String,
-    trim: true
 
-  },
-  // geometry: { type: { type: String, default: "Point" }, coordinates: [Number] },
   profileImage: {
     type: String,
     default:
@@ -43,20 +27,14 @@ const userSchema = new mongoose.Schema({
 
   role: {
     type: String,
-    enum: ["admin", "customer", "staff"],
-    default: "customer",
+    enum: ["admin", "student"],
+    default: "nat_student",
   },
   nationalProfile: {},
   interNationalProfile: {},
   password: {
     type: String,
-
-    trim: true,
     select: false,
-  },
-  createdBy: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'users',
   }
 }, { timestamps: true });
 

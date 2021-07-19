@@ -6,30 +6,32 @@ var sgTransport = require('nodemailer-sendgrid-transport');
 module.exports = class Email {
     constructor(user, url) {
         this.to = user.email;
-        this.firstName = user.firstName.split(' ')[0];
-        this.url = url;
-        this.from = `Aqib Ijaz <${process.env.EMAIL_FROM}>`;
+        this.firstName = user.email.split('@')[0];
+        this.from = `aBing <${process.env.EMAIL_FROM}>`;
+        if (user.password) {
+            this.password = user.password;
+        }
     }
 
     newTransport() {
 
         var options = {
             auth: {
-                // api_key: process.env.SENDGRID_API_KEY
-                api_key: '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'
+                api_key: process.env.SENDGRID_API_KEY
             }
         }
 
-        return nodemailer.createTransport(sgTransport(options));
+        // return nodemailer.createTransport(sgTransport(options));
 
-        // return nodemailer.createTransport({
-        //   host: process.env.EMAIL_HOST,
-        //   port: process.env.EMAIL_PORT,
-        //   auth: {
-        //     user: process.env.EMAIL_USERNAME,
-        //     pass: process.env.EMAIL_PASSWORD
-        //   }
-        // });
+        return nodemailer.createTransport({
+            host: process.env.EMAIL_HOST,
+            port: process.env.EMAIL_PORT,
+            secure: false,
+            auth: {
+                user: process.env.EMAIL_USERNAME,
+                pass: process.env.EMAIL_PASSWORD
+            }
+        });
     }
 
     // Send the actual email
@@ -37,7 +39,7 @@ module.exports = class Email {
         // 1) Render HTML based on a pug template
         const html = pug.renderFile(`${__dirname}/../views/email/${template}.pug`, {
             firstName: this.firstName,
-            url: this.url,
+            password: this.password,
             subject
         });
 
@@ -55,13 +57,13 @@ module.exports = class Email {
     }
 
     async sendWelcome() {
-        await this.send('welcome', 'Welcome to the Nat_Tours Family!');
+        await this.send('welcome', 'Welcome to the aBing Family!');
     }
 
     async sendPasswordReset() {
         await this.send(
             'passwordReset',
-            'Your password reset token (valid for only 10 minutes)'
+            'Your password reset! Please changed it in while time.'
         );
     }
 };

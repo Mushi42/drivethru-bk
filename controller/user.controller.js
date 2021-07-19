@@ -14,17 +14,6 @@ UserController.signUp = async (req, res) => {
     }
 };
 
-UserController.createStaff = async (req, res) => {
-    try {
-        const data = await userService.createStaff(req);
-        data.password = undefined;
-        setResponse(res, data)
-    } catch (error) {
-        console.log('Error ', error);
-        setResponse(res, { type: 'serverError', data: error })
-    }
-};
-
 UserController.signIn = async (req, res) => {
     try {
         const data = await userService.signIn(req);

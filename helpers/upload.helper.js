@@ -69,6 +69,12 @@ exports.excelFile = excelFile = excelFile => new Promise((resolve, reject) => {
 })
 
 exports.uploadFile = uploadFile = (file, fileSize, fileType, fileStoragePath) => new Promise((resolve, reject) => {
+    
+    /* If Dir not exist */
+    if (!fs.existsSync(`public`)) {
+        fs.mkdirSync(`public`);
+    }
+    
     const fileName = file.name.split('.')
     if (file.size / 1000000 > fileSize) {
         const response = { status: false, message: `Your file size is greater than ${fileSize}MB` }
