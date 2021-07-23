@@ -2,9 +2,85 @@ const mongoose = require("mongoose");
 const crypto = require('crypto');
 
 
+
+
+
+const PersonalInformation = mongoose.Schema({
+
+  name: String,
+  fatherName: String,
+  motherName: String,
+  cnic: String,
+  dob: String,
+  gender: String,
+  religion: String,
+  bloodGroup: String,
+  passportNumber: String,
+  maritalStatus: String,
+  nameOfNextOfKin: String,
+  nextOfKinRelation: String,
+  documents: [],
+
+}, { _id: false });
+
+const GuardianInformation = mongoose.Schema({
+  guardianName: String,
+  guardianRelation: String,
+  guardianMonIncome: String,
+  guardianCellNo: String,
+  guardianOccupation: String,
+  guardianCNIC: String,
+  guardianNTN: String,
+  documents: [],
+}, { _id: false });
+
+const ContactInformation = mongoose.Schema({
+  applicantCellNo: String,
+  alternativeCellNo: String,
+  landlineNumber: String,
+  cityofResident: String,
+  domicile: String,
+  nationality: String,
+  postalAddress: String,
+  permanentAddress: String,
+  permanentDistrict: String,
+  permanentTehsil: String,
+  domicileDistrict: String,
+  documents: [],
+
+}, { _id: false });
+
+const AcademicInformation = mongoose.Schema({
+  metricLevel: {
+    examPassed: String,
+    school: String,
+    board: String,
+    yearOfPassing: String,
+    serialNo: String,
+    referenceNo: String,
+    marksObtained: String,
+    totalMarks: String, 
+    documents: [],
+
+
+  },
+  interLevel: {
+    school: String,
+    board: String,
+    yearOfPassing: String,
+    rollNo: String,
+    registrationNo: String,
+    marksObtained: String,
+    totalMarks: String,
+    documents: [],
+
+  },
+}, { _id: false });
+
+
 const userSchema = new mongoose.Schema({
-  
-  username: {
+
+  fullName: {
     type: String,
     trim: true,
   },
@@ -27,16 +103,32 @@ const userSchema = new mongoose.Schema({
 
   role: {
     type: String,
-    enum: ["admin", "student"],
-    default: "nat_student",
+    default: "student",
   },
-  nationalProfile: {},
-  interNationalProfile: {},
+  nationalProfile: {
+    completionRate: { type: Number },
+    personalInformation: PersonalInformation,
+    guardianInformation: GuardianInformation,
+    contactInformation: ContactInformation,
+  },
+  interNationalProfile: {
+    completionRate: { type: Number },
+    personalInformation: PersonalInformation,
+  },
+  googleAuth : {
+    goId: Number,
+  },
+  faceBookAuth : {
+    fbId: Number
+  },
   password: {
     type: String,
     select: false,
   }
 }, { timestamps: true });
+
+
+
 
 const User = mongoose.model("users", userSchema);
 module.exports = User;
