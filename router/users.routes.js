@@ -10,6 +10,10 @@ router.post('/signIn', userController.signIn);
 
 /* Protect All Below Routes */
 router.use(protectRoutes);
+router.get('/getLoginUser', userController.getLoginUser);
+router.post('/completeProfile', userController.completeProfile);
+
+
 router.get('/', userController.findAll);
 router.get('/:userId', userController.findOne);
 router.put('/:userId', userController.update);

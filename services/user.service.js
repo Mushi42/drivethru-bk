@@ -19,6 +19,7 @@ UserService.signUp = async (req) => {
     if (userExist[1]) return { type: "bad", message: "Contact already exist!" };
 
     reqData.role = 'student';
+    reqData.studentId = Date.now();
     reqData.password = await userHelper.hashPassword(reqData.password)
     const data = await User.create(reqData);
     // new Email(data).sendWelcome()
@@ -43,11 +44,46 @@ UserService.findOne = async (req) => {
   }
 };
 
+UserService.getLoginUser = async (req) => {
+  try {
+    const { user, body } = req;
+
+    const loginUser = await User.findOne({ _id: user.userId })
+
+    if (!loginUser) return { type: "bad", message: "user not exist!", data: user };
+
+    return { type: "success", message: "Please provide valid credentials!", data: loginUser };
+
+  } catch (error) {
+    // console.log('Error', error);
+    throw error;
+  }
+};
+UserService.completeProfile = async (req) => {
+  try {
+    const { user, body } = req;
+    let data = {};
+    const loginUser = await User.findOne({ _id: user.userId });
+
+    if (!loginUser) return { type: "bad", message: "user not exist!", data: user };
+
+    data = await User.findOneAndUpdate({ _id: user.userId }, {
+      $set: body
+    }, { new: true });
+
+    return { type: "success", message: "Profile Updated", data };
+
+  } catch (error) {
+    // console.log('Error', error);
+    throw error;
+  }
+};
+
 UserService.signIn = async ({ body }) => {
   try {
-    const { username, password } = body;
+    const { contact, password } = body;
     const user = await User.findOne({
-      $or: [{ username: username }, { contact: username }, { email: username }],
+      $or: [{ contact: contact }, { email: contact }],
     }).select("+password");
     if (
       !user ||

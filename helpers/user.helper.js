@@ -32,7 +32,7 @@ const generarteToken = (user) => {
 };
 
 const sendUser = (user) => {
-    return {_id: user._id, email: user.email, contact: user.contact,}
+    return { _id: user._id, studentId: user.studentId, email: user.email, contact: user.contact,}
 };
 
 module.exports = {

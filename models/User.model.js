@@ -89,6 +89,7 @@ const userSchema = new mongoose.Schema({
     trim: true,
 
   },
+  studentId: Number,
   contact: {
     type: String,
     trim: true,
@@ -110,6 +111,7 @@ const userSchema = new mongoose.Schema({
     personalInformation: PersonalInformation,
     guardianInformation: GuardianInformation,
     contactInformation: ContactInformation,
+    academicInformation: AcademicInformation
   },
   interNationalProfile: {
     completionRate: { type: Number },

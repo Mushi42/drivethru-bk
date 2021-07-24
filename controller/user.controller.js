@@ -23,6 +23,24 @@ UserController.signIn = async (req, res) => {
     }
 }
 
+UserController.getLoginUser = async (req, res) => {
+    try {
+        const data = await userService.getLoginUser(req);
+        setResponse(res, data)
+    } catch (error) {
+        setResponse(res, { type: 'serverError', data: error })
+    }
+}
+
+UserController.completeProfile = async (req, res) => {
+    try {
+        const data = await userService.completeProfile(req);
+        setResponse(res, data)
+    } catch (error) {
+        setResponse(res, { type: 'serverError', data: error })
+    }
+}
+
 
 UserController.findAll = async (req, res) => {
     try {
