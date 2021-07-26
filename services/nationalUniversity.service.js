@@ -1,6 +1,6 @@
 const _ = require("lodash");
 
-const { NationalUniversity } = require("../models");
+const { NationalUniversity, InternationalUniversity } = require("../models");
 const { } = require("../helpers");
 
 const NationalUniversityService = {}
@@ -11,6 +11,16 @@ NationalUniversityService.create = async (req) => {
         const data = new NationalUniversity(reqData);
         await data.save();
         return { type: "success", message: `National University created`, data };
+    } catch (error) {
+        throw error;
+    }
+};
+NationalUniversityService.createInternational = async (req) => {
+    try {
+        const reqData = req.body;
+        const data = new InternationalUniversity(reqData);
+        await data.save();
+        return { type: "success", message: `InternationalUniversity University created`, data };
     } catch (error) {
         throw error;
     }
@@ -27,6 +37,21 @@ NationalUniversityService.bulkCreate = async (req) => {
         const createdUniversities = await  NationalUniversity.insertMany(universities)
 
         return { type: "success", message: `National University created`, data: createdUniversities };
+    } catch (error) {
+        throw error;
+    }
+};
+NationalUniversityService.internationalBulkCreate = async (req) => {
+    try {
+        const { universities } = req.body;
+
+        if(!universities ||!Array.isArray(universities) || !universities.length) {
+            return { type: "bad", message: `Please provide valid data` };
+        }
+
+        const createdUniversities = await  InternationalUniversity.insertMany(universities)
+
+        return { type: "success", message: `International University created`, data: createdUniversities };
     } catch (error) {
         throw error;
     }
@@ -49,7 +74,22 @@ NationalUniversityService.findOne = async (req) => {
 NationalUniversityService.findAll = async ({ body, query }) => {
     try {
         const options = query;
+        console.log('options', options)
         const data = await NationalUniversity.find(options);
+        if (data.length > 0) {
+            return { type: "success", message: "Record found!", data };
+        } else {
+            return { type: "bad", message: "Record not found!" };
+        }
+    } catch (error) {
+        throw error;
+    }
+};
+
+NationalUniversityService.findAllInternational = async ({ body, query }) => {
+    try {
+        const options = query;
+        const data = await InternationalUniversity.find(options);
         if (data.length > 0) {
             return { type: "success", message: "Record found!", data };
         } else {

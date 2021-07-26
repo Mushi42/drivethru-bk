@@ -12,6 +12,15 @@ NationalUniversityController.create = async (req, res) => {
         setResponse(res, { type: 'serverError', data: error })
     }
 };
+NationalUniversityController.createInternational = async (req, res) => {
+    try {
+        const data = await NationalUniversityService.createInternational(req);
+        setResponse(res, data)
+    } catch (error) {
+        console.log('Error ', error);
+        setResponse(res, { type: 'serverError', data: error })
+    }
+};
 
 NationalUniversityController.bulkCreate = async (req, res) => {
     try {
@@ -22,8 +31,25 @@ NationalUniversityController.bulkCreate = async (req, res) => {
         setResponse(res, { type: 'serverError', data: error })
     }
 };
+NationalUniversityController.internationalBulkCreate = async (req, res) => {
+    try {
+        const data = await NationalUniversityService.internationalBulkCreate(req);
+        setResponse(res, data)
+    } catch (error) {
+        console.log('Error ', error);
+        setResponse(res, { type: 'serverError', data: error })
+    }
+};
 
 
+NationalUniversityController.findAllInternational = async (req, res) => {
+    try {
+        const data = await NationalUniversityService.findAllInternational(req);
+        setResponse(res, data);
+    } catch (error) {
+        setResponse(res, { type: 'serverError', data: error })
+    }
+};
 NationalUniversityController.findAll = async (req, res) => {
     try {
         const data = await NationalUniversityService.findAll(req);

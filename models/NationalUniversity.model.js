@@ -1,10 +1,20 @@
 const mongoose = require("mongoose");
 
+/*
+
+name
+city
+facutly
+department
+eligibility
+date
+test
+years_of_graduation
+
+*/ 
+
 
 const collectionSchema = new mongoose.Schema({
-    uni_code: {
-        type: String,
-    },
     name: {
         type: String,
         trim: true
@@ -14,6 +24,10 @@ const collectionSchema = new mongoose.Schema({
         trim: true
     },
     city: {
+        type: String,
+        trim: true
+    },
+    facutly: {
         type: String,
         trim: true
     },
