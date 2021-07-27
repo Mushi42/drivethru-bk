@@ -14,20 +14,27 @@ UserController.signUp = async (req, res) => {
     }
 };
 
-UserController.createStaff = async (req, res) => {
-    try {
-        const data = await userService.createStaff(req);
-        data.password = undefined;
-        setResponse(res, data)
-    } catch (error) {
-        console.log('Error ', error);
-        setResponse(res, { type: 'serverError', data: error })
-    }
-};
-
 UserController.signIn = async (req, res) => {
     try {
         const data = await userService.signIn(req);
+        setResponse(res, data)
+    } catch (error) {
+        setResponse(res, { type: 'serverError', data: error })
+    }
+}
+
+UserController.getLoginUser = async (req, res) => {
+    try {
+        const data = await userService.getLoginUser(req);
+        setResponse(res, data)
+    } catch (error) {
+        setResponse(res, { type: 'serverError', data: error })
+    }
+}
+
+UserController.completeProfile = async (req, res) => {
+    try {
+        const data = await userService.completeProfile(req);
         setResponse(res, data)
     } catch (error) {
         setResponse(res, { type: 'serverError', data: error })

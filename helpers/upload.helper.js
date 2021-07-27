@@ -39,12 +39,13 @@ exports.excelFile = excelFile = excelFile => new Promise((resolve, reject) => {
                 if (element.filter(ele => ele === null).length != 6) {
 
                     obj.name = !element[0] ? "Coming soon" : element[0];
-                    obj.department = !element[1] ? "Coming soon" : element[1];
-                    obj.eligibility = !element[2] ? "Coming soon" : element[2];
-                    obj.date = !element[3] ? "Coming soon" : element[3];
-                    obj.test = !element[4] ? "Coming soon" : element[4];
-                    obj.years_of_graduation = !element[5] ? "Coming soon" : element[5];
-                    obj.city = 'comming soon';
+                    obj.city = !element[1] ? "" : element[1];
+                    obj.facutly = !element[2] ? "" : element[2];
+                    obj.department = !element[3] ? "" : element[3];
+                    obj.eligibility = !element[4] ? "" : element[4];
+                    obj.date = !element[5] ? "" : element[5];
+                    obj.test = !element[6] ? "" : element[6];
+                    obj.years_of_graduation = !element[7] ? "" : element[7];
                     records.push(obj);
                 }
 
@@ -69,6 +70,12 @@ exports.excelFile = excelFile = excelFile => new Promise((resolve, reject) => {
 })
 
 exports.uploadFile = uploadFile = (file, fileSize, fileType, fileStoragePath) => new Promise((resolve, reject) => {
+    
+    /* If Dir not exist */
+    if (!fs.existsSync(`public`)) {
+        fs.mkdirSync(`public`);
+    }
+    
     const fileName = file.name.split('.')
     if (file.size / 1000000 > fileSize) {
         const response = { status: false, message: `Your file size is greater than ${fileSize}MB` }

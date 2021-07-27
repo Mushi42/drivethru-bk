@@ -2,39 +2,100 @@ const mongoose = require("mongoose");
 const crypto = require('crypto');
 
 
+
+
+
+const PersonalInformation = mongoose.Schema({
+
+  name: String,
+  fatherName: String,
+  motherName: String,
+  cnic: String,
+  dob: String,
+  gender: String,
+  religion: String,
+  bloodGroup: String,
+  passportNumber: String,
+  maritalStatus: String,
+  nameOfNextOfKin: String,
+  nextOfKinRelation: String,
+  documents: [],
+
+}, { _id: false });
+
+const GuardianInformation = mongoose.Schema({
+  guardianName: String,
+  guardianRelation: String,
+  guardianMonIncome: String,
+  guardianCellNo: String,
+  guardianOccupation: String,
+  guardianCNIC: String,
+  guardianNTN: String,
+  documents: [],
+}, { _id: false });
+
+const ContactInformation = mongoose.Schema({
+  applicantCellNo: String,
+  alternativeCellNo: String,
+  landlineNumber: String,
+  cityofResident: String,
+  domicile: String,
+  nationality: String,
+  postalAddress: String,
+  permanentAddress: String,
+  permanentDistrict: String,
+  permanentTehsil: String,
+  domicileDistrict: String,
+  documents: [],
+
+}, { _id: false });
+
+const AcademicInformation = mongoose.Schema({
+  metricLevel: {
+    examPassed: String,
+    school: String,
+    board: String,
+    yearOfPassing: String,
+    serialNo: String,
+    referenceNo: String,
+    marksObtained: String,
+    totalMarks: String, 
+    documents: [],
+
+
+  },
+  interLevel: {
+    school: String,
+    board: String,
+    yearOfPassing: String,
+    rollNo: String,
+    registrationNo: String,
+    marksObtained: String,
+    totalMarks: String,
+    documents: [],
+
+  },
+}, { _id: false });
+
+
 const userSchema = new mongoose.Schema({
-  firstName: {
-    type: String,
 
-    trim: true
-  },
-  lastName: {
-    type: String,
-
-    trim: true
-
-  },
-  username: {
+  fullName: {
     type: String,
     trim: true,
-
   },
   email: {
     type: String,
     trim: true,
 
   },
+  studentId: Number,
   contact: {
     type: String,
     trim: true,
     require: true,
   },
-  address: {
-    type: String,
-    trim: true
 
-  },
-  // geometry: { type: { type: String, default: "Point" }, coordinates: [Number] },
   profileImage: {
     type: String,
     default:
@@ -43,22 +104,33 @@ const userSchema = new mongoose.Schema({
 
   role: {
     type: String,
-    enum: ["admin", "customer", "staff"],
-    default: "customer",
+    default: "student",
   },
-  nationalProfile: {},
-  interNationalProfile: {},
+  nationalProfile: {
+    completionRate: { type: Number },
+    personalInformation: PersonalInformation,
+    guardianInformation: GuardianInformation,
+    contactInformation: ContactInformation,
+    academicInformation: AcademicInformation
+  },
+  interNationalProfile: {
+    completionRate: { type: Number },
+    personalInformation: PersonalInformation,
+  },
+  googleAuth : {
+    goId: Number,
+  },
+  faceBookAuth : {
+    fbId: Number
+  },
   password: {
     type: String,
-
-    trim: true,
     select: false,
-  },
-  createdBy: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'users',
   }
 }, { timestamps: true });
+
+
+
 
 const User = mongoose.model("users", userSchema);
 module.exports = User;

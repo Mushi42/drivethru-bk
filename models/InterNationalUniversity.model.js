@@ -2,55 +2,17 @@ const mongoose = require("mongoose");
 
 
 const collectionSchema = new mongoose.Schema({
-    uni_code: {
-        type:String,
-    },
-    name: {
-        type: String,
-        trim: true
-    },
-    country: {
-        type: String
-    },
-    department: {
-        type: String,
-        enum: ['pending', 'active', 'completed'],
-        default: 'pending',
-        trim: true
-    },
-    city: {
-        type: String,
-        trim: true
-    },
-    eligibility: {
-        type: String,
-        trim: true
-    },
-    date: {
-        type: String,
-        trim: true
-    },
-    test: {
-        type: String,
-        trim: true
-    },
-    years_of_graduation: {
-        type: String,
-        trim: true
-    },
-
-
-    /*
-        uni_code
-        name
-        department
-        city
-        eligibility
-        date
-        test
-        years_of_graduation 
-     */
-
+   country: String,
+   application_form: String,
+   cost_of_study: String,
+   cost_of_living: String,
+   pakistan_visa: String,
+   job_oppertunity: String,
+   study_visa_requirement: String,
+   level_of_education: String,
+   courses: String,
+   student_life: String,
+   study_in_scholarship: String,
 }, { timestamps: true });
 
 

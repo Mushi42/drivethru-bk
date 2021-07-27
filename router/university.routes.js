@@ -12,10 +12,13 @@ const router = express.Router();
     @Des: Create National University 
  */
 router.post('/national', nationalUniversityController.create);
+router.post('/international', nationalUniversityController.createInternational);
 router.post('/national/bulk', nationalUniversityController.bulkCreate);
+router.post('/international/bulk', nationalUniversityController.internationalBulkCreate);
 
 router.get('/national/get_uni_dep_city', nationalUniversityController.get_uni_dep_city);
 router.get('/national', nationalUniversityController.findAll);
+router.get('/international', nationalUniversityController.findAllInternational);
 
 
 router.get('/national/:id', nationalUniversityController.findOne);
