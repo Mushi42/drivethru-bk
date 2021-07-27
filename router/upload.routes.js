@@ -8,6 +8,7 @@ const router = express.Router();
 /* Protect All Below Routes */
 // router.use(protectRoutes);
 router.post('/university/national/sheet', uploadController.uploadNationalExcelSheet);
+router.post('/image', uploadController.uploadImageToS3);
 
 
 module.exports = router;

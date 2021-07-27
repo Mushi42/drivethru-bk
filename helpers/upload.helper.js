@@ -1,6 +1,6 @@
 const readXlsxFile = require('read-excel-file/node');
 const fs = require('fs');
-
+const AWS = require('aws-sdk');
 
 /* 
 const slugify = require('slugify')
@@ -70,12 +70,12 @@ exports.excelFile = excelFile = excelFile => new Promise((resolve, reject) => {
 })
 
 exports.uploadFile = uploadFile = (file, fileSize, fileType, fileStoragePath) => new Promise((resolve, reject) => {
-    
+
     /* If Dir not exist */
     if (!fs.existsSync(`public`)) {
         fs.mkdirSync(`public`);
     }
-    
+
     const fileName = file.name.split('.')
     if (file.size / 1000000 > fileSize) {
         const response = { status: false, message: `Your file size is greater than ${fileSize}MB` }
@@ -98,6 +98,71 @@ exports.uploadFile = uploadFile = (file, fileSize, fileType, fileStoragePath) =>
         }
         const response = { status: true, message: `file uploaded!`, data: { filePathWithFileName: filePathWithFileName.replace('public/', '') } }
         resolve(response)
+    });
+});
+
+exports.uploadFileS3 = uploadFile = (file, fileSize, fileStoragePath) => new Promise((resolve, reject) => {
+
+    /* If Dir not exist */
+    if (!fs.existsSync(`public`)) {
+        fs.mkdirSync(`public`);
+    }
+
+    const fileName = file.name.split('.')
+    if (file.size / 1000000 > fileSize) {
+        const response = { status: false, message: `Your file size is greater than ${fileSize}MB` }
+        resolve(response)
+    }
+    console.log(fileStoragePath)
+    const filePathWithFileName = `public/${fileStoragePath}/${file.name}`;
+
+    /* If Dir not exist */
+    if (!fs.existsSync(`public/${fileStoragePath}`)) {
+        fs.mkdirSync(`public/${fileStoragePath}`);
+    }
+
+    const s3 = new AWS.S3({
+
+        accessKeyId: process.env.ACCESS_KEY_ID,
+
+        secretAccessKey: process.env.SECRET_ACCESS_KEY
+
+    });
+    /* File Stored */
+    file.mv(filePathWithFileName, function (err) {
+        if (err) {
+            reject(err)
+        }
+    });
+    console.log('File Path', filePathWithFileName)
+    // return
+    const filePath = filePathWithFileName;
+
+    fs.readFile(filePath, (err, data) => {
+
+        if (err) throw err;
+        const readStream = fs.createReadStream(filePath);
+        const params = {
+
+            Bucket: 'drivethrumedia-bucket',
+
+            Key: file.name,
+
+            Body: readStream
+
+        };
+
+        s3.upload(params, function (s3Err, data) {
+
+            if (s3Err) throw s3Err
+            readStream.destroy();
+            console.log(`File uploaded successfully at ${data.Location}`)
+            fs.unlinkSync(filePathWithFileName)
+            resolve({ status: true, message: `file uploaded!`, data: data.Location })
+
+        });
+        // const response = { status: true, message: `file uploaded!`, data: { filePathWithFileName: filePathWithFileName.replace('public/', '') } }
+        // resolve(response)
     });
 });
 
