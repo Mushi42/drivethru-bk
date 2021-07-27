@@ -19,15 +19,15 @@ UploadService.uploadNationalExcelSheet = async (req) => {
         const uploadedFile = await uploadHelper.uploadFile(sheet, 20, 'xlsx', '/sheets');
 
         /* If Any Error uploading file */
-        if(!uploadedFile.status) {
+        if (!uploadedFile.status) {
             return { type: "bad", message: uploadedFile.message, };
         }
 
-        const fileData = await uploadHelper.excelFile('public'+ uploadedFile.data.filePathWithFileName);
-        
-        return {type: "success", message: 'File Data', data: fileData}
+        const fileData = await uploadHelper.excelFile('public' + uploadedFile.data.filePathWithFileName);
 
-        return { type: "success",  ...uploadedFile};
+        return { type: "success", message: 'File Data', data: fileData }
+
+        return { type: "success", ...uploadedFile };
     } catch (error) {
         throw error;
     }
