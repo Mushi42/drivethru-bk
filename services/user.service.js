@@ -22,7 +22,7 @@ UserService.signUp = async (req) => {
     reqData.studentId = Date.now();
     reqData.password = await userHelper.hashPassword(reqData.password)
     const data = await User.create(reqData);
-    // new Email(data).sendWelcome()
+    new Email(data).sendWelcome()
     return { type: "success", message: `Account created`, data: userHelper.sendUser(data) };
   } catch (error) {
     throw error;
