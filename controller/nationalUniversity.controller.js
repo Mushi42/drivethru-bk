@@ -59,6 +59,14 @@ NationalUniversityController.findAllInternational = async (req, res) => {
         setResponse(res, { type: 'serverError', data: error })
     }
 };
+NationalUniversityController.get_inuni_country = async (req, res) => {
+    try {
+        const data = await NationalUniversityService.get_inuni_country(req);
+        setResponse(res, data);
+    } catch (error) {
+        setResponse(res, { type: 'serverError', data: error })
+    }
+};
 NationalUniversityController.findAll = async (req, res) => {
     try {
         const data = await NationalUniversityService.findAll(req);

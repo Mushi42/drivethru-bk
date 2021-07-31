@@ -1,28 +1,1879 @@
 [
     {
-        "country": "Canada",
-        "application_form": "You can apply for admission thereby applying it online. It is important for you to provide the university with the right information. Your documents should be ready for a student visa and if there is any language demand, you have to fulfill it.",
-        "cost_of_study": "Study in Canada cost may vary with the study program that students choose.\nUndergraduate program; $13,000 to $20,000/year\nDoctoral degree: $7,000 to $15,000/year\nMBA: $30,000 to $40,000/year\nPostgraduate master’s degree: $17,000 to $25,000/year",
-        "cost_of_living": "For provinces like Montreal, Quebec, and Ottawa, the average living cost is between 800-1,500 CAD/month. Others such as Calgary and Vancouver can be as expensive as 2,000 CAD/month.\nHousing options and costs\nHomestays\nUniversity-arranged: 400-800 CAD/month\nStudent residencies: 250-625 CAD/month\nRent and share apartment: 300-700 CAD/month, prices vary on facilities and location.\nBasic utilities (heating, water, electricity, and garbage): 150 CAD/month\nInternet: 50-70 CAD/month\nFood costs: around 300 CAD/month for groceries and supermarkets.\nFor a transport pass, students will pay 90 CAD/month, and a one-way ticket is for 3 CAD.\nTaxis can be used all over Canada, and the fares lie between 2 to 6 CAD/km.",
-        "pakistan_visa": "Different visas are being offered for study in Canada for international students. Immigrants wishing to come can use the following immigration options.\n\nStudy immigration: For studying in Canada\nVisitor visa: visa for work or study\nStudy permit: for students who wish to study in Canada for more than 6 months\nWork immigration: this is for people who want to work in Canada\nPost-graduate work permit (PGWP): for students who have graduated from a minimum 1-year academic program\nExpress entry: Online government system for potential immigrants to get permanent status in the country\nBusiness immigration: For those who want to set businesses in Canada",
-        "job_oppertunity": "As a student, part-time jobs are available on and off the campus. Students can work for up to 20 hours during university and in breaks. After the master’s degree completion, students may apply for a post-graduate work permit program within 90 days after graduation. With this, they can work for an equal period as the length of the program, and a maximum of 3 years. ",
-        "study_visa_requirement": "For admission into a Canadian university, you need to meet the visa requirements, applicants should have completed the Canadian equivalent of grade 12, and meet the English language requirements. Students must prove their English proficiency through either ILETS or TOEFL. Students who wish to study in Canada without IELTS must show their proficiency through other tests like TOEFL and PTE.",
-        "level_of_education": "The Canadian system of education offers three levels of educations that students can pursue. \nBachelors\nMaster’s\nDoctorate’s degrees",
-        "courses": "MBA\nBusiness and finance\nMedia and journalism\nPsychology and human resources\nComputer science and IT",
-        "student_life": "For a student, Canada is a great place to thrive and grow. The classrooms are multicultural and diverse, and students experience a range of cultures.\nThe instructors are supportive, and students experience a safe environment. Students conduct actual research and are guided by their teachers along the way. ",
-        "study_in_scholarship": "Canada is one of the other countries which are offering scholarships to the foreigners. Different student visa services are available which guide you about the scholarship criteria and help you in availing any of these opportunities. DRIVETHRU is also one of those services which are known for their remarkable efforts and consultation for scholarships in abroad. They help in getting the scholarship in UK, CANADA, USA or FRANCE.\nAt DRIVETHRU, they help students in the preparation for study in Canada scholarship and let them know about all the requirements. Canada is the beautiful place to discover and to study. DRIVETHRU is providing end to end services and consultation to make sure that their client is getting the best of services. Multiple Student scholarships are available Bachelors, Masters and PhD. \nPeople in Canada are also very friendly and give you a very comfortable environment. Scholarships are available on the basis of merit and also on some other factors like publications or research purposes.\nScholarships in Canada are the most demanding thing which help the Canadian economy increase with the invitation of more and more foreign students in their country.\nStudents can study in Canada with scholarships, if they fulfill merit criteria, few such scholarships are listed below.\nShastri Indo-Canadian institute Canadian commonwealth scholarship and fellowship plan\nNational research council of Canada (NRCC)\nOntario graduate scholarship program\nQuebec provincial government scholarship\nPartnership Grants by Social Sciences and Humanities Research Council of Canada\nOntario trillium scholarship"
+        "countryName": "Canada ",
+        "costOfStudy": "Study in Canada cost may vary with the study program that students choose.",
+        "costOfLiving": "For provinces like Montreal, Quebec, and Ottawa, the average living cost is between 800-1,500 CAD/month. Others such as Calgary and Vancouver can be as expensive as 2,000 CAD/month.",
+        "visaForPakistaniStudents": "Different visas are being offered for study in Canada for international students. Immigrants wishing to come can use the following immigration options.",
+        "jobWorkOpportunitiesForStudents": "As a student, part-time jobs are available on and off the campus. Students can work for up to 20 hours during university and in breaks. After the master’s degree completion, students may apply for a post-graduate work permit program within 90 days after graduation. With this, they can work for an equal period as the length of the program, and a maximum of 3 years. ",
+        "admissionDetails": "Valid Passport",
+        "levelsOfEducation": "The Canadian system of education offers three levels of educations that students can pursue. ",
+        "mostPopularCoursesForInternationalStudents": "MBA",
+        "studentLife": "For a student, Canada is a great place to thrive and grow. The classrooms are multicultural and diverse, and students experience a range of cultures.",
+        "studyInScholarships": "Canada is one of the other countries which are offering scholarships to the foreigners. Different student visa services are available which guide you about the scholarship criteria and help you in availing any of these opportunities. DRIVETHRU is also one of those services which are known for their remarkable efforts and consultation for scholarships in abroad. They help in getting the scholarship in UK, CANADA, USA or FRANCE."
     },
     {
-        "country": "Australia",
-        "application_form": "",
-        "cost_of_study": "English language courses: About $300, based on the length of the course\nSecondary education: $7800 to $30,000/year\nVET: $4000 to $22,000/year\nTAFE: $4000 to $22,000/year\nBachelor degree, undergraduate: $15,000 to $33,000/year\nMaster’s degree, post graduate: $20,000 to $37,000/year\nFoundation courses: $15,000 to $39,000/year\nMBA: $11,000 to almost $121,000, total cost\nDoctoral degree: $14,000 to $37,000/year",
-        "cost_of_living": "Electricity and gas: $10 to $20/week\nFood and groceries: $140 to $280/week\nPublic transport: $30 to $60/week\nInternet and phone: $15 to $30/week\nEntertainment: $80 to $150/week\nCar (after purchasing): $150 to $260/week",
-        "pakistan_visa": "",
-        "job_oppertunity": "",
-        "study_visa_requirement": "",
-        "level_of_education": "",
-        "courses": "",
-        "student_life": "",
-        "study_in_scholarship": "For international students, Australian universities offer a lot of grants and scholarships that can help you with your wish to study in Australia. It opens gates for Pakistani students to study in Australia with scholarships, some of which are listed below.\nAustralia awards\nDestination Australia\nAustralian government research training program\nAPEC Women in a research fellowship\nProvider scholarships"
+        "countryName": "Canada ",
+        "visaForPakistaniStudents": "Study immigration: For studying in Canada",
+        "admissionDetails": "Attested copies of 10th, 12th and Degree certificates",
+        "levelsOfEducation": "Bachelors",
+        "mostPopularCoursesForInternationalStudents": "Business and finance",
+        "studentLife": "The instructors are supportive, and students experience a safe environment. Students conduct actual research and are guided by their teachers along the way. ",
+        "studyInScholarships": "At DRIVETHRU, they help students in the preparation for study in Canada scholarship and let them know about all the requirements. Canada is the beautiful place to discover and to study. DRIVETHRU is providing end to end services and consultation to make sure that their client is getting the best of services. Multiple Student scholarships are available Bachelors, Masters and PhD. "
+    },
+    {
+        "countryName": "Canada ",
+        "costOfStudy": "Undergraduate program; $13,000 to $20,000/year",
+        "costOfLiving": "Housing options and costs",
+        "visaForPakistaniStudents": "Visitor visa: visa for work or study",
+        "admissionDetails": "Academic references – 2",
+        "levelsOfEducation": "Master’s",
+        "mostPopularCoursesForInternationalStudents": "Media and journalism",
+        "studyInScholarships": "People in Canada are also very friendly and give you a very comfortable environment. Scholarships are available on the basis of merit and also on some other factors like publications or research purposes."
+    },
+    {
+        "countryName": "Canada ",
+        "costOfStudy": "Doctoral degree: $7,000 to $15,000/year",
+        "costOfLiving": "Homestays, University-arranged: 400-800 CAD/month",
+        "visaForPakistaniStudents": "Study permit: for students who wish to study in Canada for more than 6 months",
+        "jobWorkOpportunitiesForStudents": "For admission into a Canadian university, you need to meet the visa requirements, applicants should have completed the Canadian equivalent of grade 12, and meet the English language requirements. Students must prove their English proficiency through either ILETS or TOEFL. Students who wish to study in Canada without IELTS must show their proficiency through other tests like TOEFL and PTE.",
+        "admissionDetails": "Employer references – 2",
+        "levelsOfEducation": "Doctorate’s degrees",
+        "mostPopularCoursesForInternationalStudents": "Psychology and human resources",
+        "studyInScholarships": "Scholarships in Canada are the most demanding thing which help the Canadian economy increase with the invitation of more and more foreign students in their country."
+    },
+    {
+        "countryName": "Canada ",
+        "costOfStudy": "MBA: $30,000 to $40,000/year",
+        "costOfLiving": "Student residencies: 250-625 CAD/month",
+        "visaForPakistaniStudents": "Work immigration: this is for people who want to work in Canada",
+        "admissionDetails": "SOP (Statement of Purpose)",
+        "mostPopularCoursesForInternationalStudents": "Computer science and IT",
+        "studyInScholarships": "Students can study in Canada with scholarships, if they fulfill merit criteria, few such scholarships are listed below."
+    },
+    {
+        "countryName": "Canada ",
+        "costOfStudy": "Postgraduate master’s degree: $17,000 to $25,000/year",
+        "costOfLiving": "Rent and share apartment: 300-700 CAD/month, prices vary on facilities and location.",
+        "visaForPakistaniStudents": "Post-graduate work permit (PGWP): for students who have graduated from a minimum 1-year academic program",
+        "admissionDetails": "Certificates of extracurricular achievements"
+    },
+    {
+        "countryName": "Canada ",
+        "costOfLiving": "Basic utilities (heating, water, electricity, and garbage): 150 CAD/month",
+        "visaForPakistaniStudents": "Express entry: Online government system for potential immigrants to get permanent status in the country",
+        "admissionDetails": "An acceptance letter from your education institution"
+    },
+    {
+        "countryName": "Canada ",
+        "costOfLiving": "Internet: 50-70 CAD/month",
+        "visaForPakistaniStudents": "Business immigration: For those who want to set businesses in Canada",
+        "admissionDetails": "Proof of payment"
+    },
+    {
+        "countryName": "Canada ",
+        "costOfLiving": "Food costs: around 300 CAD/month for groceries and supermarkets.",
+        "admissionDetails": "Proof of financial funds",
+        "studyInScholarships": "Shastri Indo-Canadian institute Canadian commonwealth scholarship and fellowship plan"
+    },
+    {
+        "countryName": "Canada ",
+        "costOfLiving": "For a transport pass, students will pay 90 CAD/month, and a one-way ticket is for 3 CAD.",
+        "admissionDetails": "Passport size photographs",
+        "studyInScholarships": "National research council of Canada (NRCC)"
+    },
+    {
+        "countryName": "Canada ",
+        "costOfLiving": "Taxis can be used all over Canada, and the fares lie between 2 to 6 CAD/km.",
+        "admissionDetails": "Study Permit and visa",
+        "studyInScholarships": "Ontario graduate scholarship program"
+    },
+    {
+        "countryName": "Canada ",
+        "admissionDetails": "English Proficiency",
+        "studyInScholarships": "Quebec provincial government scholarship"
+    },
+    {
+        "countryName": "Canada ",
+        "admissionDetails": "Your University will make you aware of additional requirements if any prior to your application",
+        "studyInScholarships": "Partnership Grants by Social Sciences and Humanities Research Council of Canada"
+    },
+    {
+        "countryName": "Canada ",
+        "studyInScholarships": "Ontario trillium scholarship"
+    },
+    {
+        "countryName": "Canada "
+    },
+    {
+        "countryName": "Australia",
+        "costOfStudy": "English language courses: About $300, based on the length of the course",
+        "costOfLiving": "Electricity and gas: $10 to $20/week",
+        "visaForPakistaniStudents": "Proof of enrolment (your Electronic Confirmation of Enrolment)",
+        "jobWorkOpportunitiesForStudents": "Farm hand."
+    },
+    {
+        "countryName": "Australia",
+        "costOfStudy": "Secondary education: $7800 to $30,000/year",
+        "costOfLiving": "Food and groceries: $140 to $280/week",
+        "visaForPakistaniStudents": "Your health insurance (Overseas Student Health Cover) policy details.",
+        "jobWorkOpportunitiesForStudents": "Australia is full of farms growing everything from avocados to apples. ...",
+        "admissionDetails": "Proof of enrolment (your electronic confirmation of enrolment)",
+        "levelsOfEducation": "Certificate I",
+        "mostPopularCoursesForInternationalStudents": "Actuarial Science. ..."
+    },
+    {
+        "countryName": "Australia",
+        "costOfStudy": "VET: $4000 to $22,000/year",
+        "costOfLiving": "Public transport: $30 to $60/week",
+        "visaForPakistaniStudents": "Your Genuine Temporary Entrant (GTE) statement.",
+        "jobWorkOpportunitiesForStudents": "Sales assistant. ...",
+        "admissionDetails": "A valid passport.",
+        "levelsOfEducation": "Advanced Diploma, , Associate Degree",
+        "mostPopularCoursesForInternationalStudents": "Agricultural sciences. ...",
+        "studentLife": "Though costly to live in, Studying in Australia is still a cheaper option for students. The average tuition fees in Australia, as per Shiksha Study Abroad databank, is less than America but the living expenses are cheaper still",
+        "studyInScholarships": "Participate in community life. ..."
+    },
+    {
+        "countryName": "Australia",
+        "costOfStudy": "TAFE: $4000 to $22,000/year",
+        "costOfLiving": "Internet and phone: $15 to $30/week",
+        "visaForPakistaniStudents": "Evidence of your English skills.",
+        "jobWorkOpportunitiesForStudents": "Call centre operator. ...",
+        "admissionDetails": "Your visa application fee.",
+        "levelsOfEducation": "Bachelor Degree",
+        "mostPopularCoursesForInternationalStudents": "Architecture. ...",
+        "studyInScholarships": "Apply for as many scholarships as possible. ..."
+    },
+    {
+        "countryName": "Australia",
+        "costOfStudy": "Bachelor degree, undergraduate: $15,000 to $33,000/year",
+        "costOfLiving": "Entertainment: $80 to $150/week",
+        "visaForPakistaniStudents": "A valid passport.",
+        "jobWorkOpportunitiesForStudents": "Housekeeper. ...",
+        "admissionDetails": "Your Genuine Temporary Entrant (GTE) statement.",
+        "levelsOfEducation": "Bachelor Honours Degree, Graduate Certificate, Graduate Diploma",
+        "mostPopularCoursesForInternationalStudents": "Biomedical engineering. ...",
+        "studyInScholarships": "Ask for help with applications. ..."
+    },
+    {
+        "countryName": "Australia",
+        "costOfStudy": "Master’s degree, post graduate: $20,000 to $37,000/year",
+        "costOfLiving": "Car (after purchasing): $150 to $260/week",
+        "visaForPakistaniStudents": "Your visa application fee.",
+        "jobWorkOpportunitiesForStudents": "Volunteer.",
+        "admissionDetails": "Academic and work experience documents.",
+        "mostPopularCoursesForInternationalStudents": "Earth sciences. ...",
+        "studyInScholarships": "Read the scholarship criteria carefully."
+    },
+    {
+        "countryName": "Australia",
+        "costOfStudy": "Foundation courses: $15,000 to $39,000/year",
+        "jobWorkOpportunitiesForStudents": "While it's not a paid job, volunteering offers valuable skills as well as the opportunity to get involved with a cause they're passionate about.",
+        "admissionDetails": "Evidence of your English proficiency skills (such as IELTS test scores)",
+        "mostPopularCoursesForInternationalStudents": "Computer science and information technology. ..."
+    },
+    {
+        "countryName": "Australia",
+        "costOfStudy": "MBA: $11,000 to almost $121,000, total cost",
+        "mostPopularCoursesForInternationalStudents": "Psychology. ..."
+    },
+    {
+        "countryName": "Australia",
+        "costOfStudy": "Doctoral degree: $14,000 to $37,000/year",
+        "mostPopularCoursesForInternationalStudents": "Tourism and hospitality management."
+    },
+    {
+        "countryName": "Australia"
+    },
+    {
+        "countryName": "Australia"
+    },
+    {
+        "countryName": "Australia"
+    },
+    {
+        "countryName": "Australia"
+    },
+    {
+        "countryName": "United Kingdom ",
+        "costOfStudy": "The cost of study in the UK for Pakistani students and others varies based on the degree that the applicant wants to pursue.",
+        "costOfLiving": "Rent: £418/month",
+        "visaForPakistaniStudents": "For UK student visa applications, you need to meet the requirements. They include being accepted and enrolled in a course, must be able to pay for and support yourself, follow and intend the selected course, and leave once you complete your studies. For being accepted into university, you need to have grades and qualifications, pass entrance tests, pass language proficiency tests, have ID documents, give interviews, and give any additional entry requirements.",
+        "admissionDetails": "In the UK, like for study in England, international students can work with a part-time job as they study. With a tier 4 visa, that is the official student visa, you can work part-time as you study, but you have to be at least 16 and have a tier Visa. With the UK post-study visa, international students can stay in the UK after they complete their graduation to find work, up till 2 years.",
+        "levelsOfEducation": "Undergraduate",
+        "mostPopularCoursesForInternationalStudents": "Engineering and Technology.",
+        "studentLife": "In general, student life in Oxford and Cambridge is very peaceful and quiet, which makes it ideal for the intense studying that you will do at either of the major universities in this region. As you can see, student life in UK for one student can be very different than student life for another.",
+        "studyInScholarships": "The Chevening Scholarships. ..."
+    },
+    {
+        "countryName": "United Kingdom ",
+        "costOfLiving": "Transport: £43/month",
+        "levelsOfEducation": "Foundation courses",
+        "mostPopularCoursesForInternationalStudents": "Medicine.",
+        "studyInScholarships": "Euraxess UK. ..."
+    },
+    {
+        "countryName": "United Kingdom ",
+        "costOfStudy": "Undergraduate bachelor degree: GBP 10,000 to GBP 20,0000/year",
+        "costOfLiving": "Household bills: £37/month",
+        "levelsOfEducation": "Post-graduate and masters",
+        "mostPopularCoursesForInternationalStudents": "Law.",
+        "studyInScholarships": "The Commonwealth Scholarships. ..."
+    },
+    {
+        "countryName": "United Kingdom ",
+        "costOfStudy": "Doctoral degree: GBP 15,000 to GBP 24,000/year",
+        "costOfLiving": "Clothing and shopping: £29/month",
+        "levelsOfEducation": "Pre-masters",
+        "mostPopularCoursesForInternationalStudents": "Social Sciences.",
+        "studyInScholarships": "The Royal Society Grants. ..."
+    },
+    {
+        "countryName": "United Kingdom ",
+        "costOfStudy": "Postgraduate master’s degree: GBP 10,000 to GBP 20,000/year",
+        "costOfLiving": "Health and well-being: £13",
+        "levelsOfEducation": "Two-year degree",
+        "mostPopularCoursesForInternationalStudents": "Sports Science.",
+        "studyInScholarships": "Scholarships from UK universities."
+    },
+    {
+        "countryName": "United Kingdom ",
+        "costOfStudy": "For students who want to study in the UK for free, the best option is to search for a scholarship that covers most or all of the tuition expenses.",
+        "costOfLiving": "Holidays: £22/month",
+        "levelsOfEducation": "English courses",
+        "mostPopularCoursesForInternationalStudents": "Media and Communication."
+    },
+    {
+        "countryName": "United Kingdom ",
+        "costOfLiving": "Mobile phone: £16/month",
+        "levelsOfEducation": "A-levels",
+        "mostPopularCoursesForInternationalStudents": "Arts."
+    },
+    {
+        "countryName": "United Kingdom ",
+        "costOfStudy": "For EU students, Brexit will affect the tuition fee status. Students who have been confirmed as EU students, for the year 2020-2021, will have to pay the same fees as any domestic student.",
+        "costOfLiving": "Charity and gifts: £12/month",
+        "levelsOfEducation": "Colleges",
+        "mostPopularCoursesForInternationalStudents": "Hospitality and Tourism."
+    },
+    {
+        "countryName": "United Kingdom "
+    },
+    {
+        "countryName": "United Kingdom "
+    },
+    {
+        "countryName": "United Kingdom "
+    },
+    {
+        "countryName": "Germany",
+        "costOfStudy": "At German private universities, tuition costs can reach 26,000 EUR/year for a Bachelor's degree and 40,000 EUR/year for a Master's. Programmes in Engineering and Business & Management are the most expensive",
+        "costOfLiving": "On average, to cover your living expenses in Germany you will need around 861 euros per month (around $1,002 US dollars) or 10,332 euros per year (around $12,024 US dollars). The prices for food, accommodation, bills, clothes, and entertainment are basically in line with the EU average",
+        "visaForPakistaniStudents": "The university’s admission letter",
+        "jobWorkOpportunitiesForStudents": "Study in Germany for Pakistani students is a great opportunity as they are eligible to work during their study in Germany for 120 whole days or 240 half days yearly. For research assistant student, it is typically not counted under these boundaries. Pakistani or other non-EU students cannot sign up for freelance or self-employed jobs.",
+        "admissionDetails": "A duly completed application form.",
+        "levelsOfEducation": "High school degree (diploma) or equivalent",
+        "mostPopularCoursesForInternationalStudents": "Medicine and Dentistry. Doctors and dentists are valuable professionals throughout the entire world. ...",
+        "studyInScholarships": "Government-funded scholarships to study in Germany"
+    },
+    {
+        "countryName": "Germany",
+        "visaForPakistaniStudents": "Proof of Financial Resources – (a minimum of €8,700)",
+        "jobWorkOpportunitiesForStudents": "If you want to work after the degree, you will have to:",
+        "admissionDetails": "Certified copy of high school diploma.",
+        "levelsOfEducation": "Bachelor's degree",
+        "mostPopularCoursesForInternationalStudents": "Law. Lawyers are also highly important. ...",
+        "studentLife": "Around 40 % of international students in Germany choose to live in student residences, due to low costs – around 300 EUR/month. ... Living costs in Germany amount to an average of 850 – 1300 EUR/month that includes accommodation costs, food, public transportation and social activities."
+    },
+    {
+        "countryName": "Germany",
+        "visaForPakistaniStudents": "Proof of Health Insurance in Germany",
+        "admissionDetails": "Relevant recognized academic certificates.",
+        "levelsOfEducation": "Master's degree (sometimes bachelor degrees are acceptable)",
+        "mostPopularCoursesForInternationalStudents": "Industrial Engineering. ...",
+        "studyInScholarships": "DAAD Scholarships – The German Academic Exchange Service (DAAD) offers many scholarships for international students to study in Germany at various degree levels. Click the link to view the DAAD scholarships databas"
+    },
+    {
+        "countryName": "Germany",
+        "visaForPakistaniStudents": "University Entrance Qualification",
+        "jobWorkOpportunitiesForStudents": "Extend the residence permit for 18 months",
+        "admissionDetails": "Translated overview of your modules and grades.",
+        "mostPopularCoursesForInternationalStudents": "Engineering. ..."
+    },
+    {
+        "countryName": "Germany",
+        "visaForPakistaniStudents": "Certificate of Language Proficiency",
+        "jobWorkOpportunitiesForStudents": "Passport",
+        "admissionDetails": "Copy of your passport and a passport photo.",
+        "mostPopularCoursesForInternationalStudents": "Mathematics and Computer Science. ..."
+    },
+    {
+        "countryName": "Germany",
+        "visaForPakistaniStudents": "Two applications form filled properly",
+        "jobWorkOpportunitiesForStudents": "University degree completion certificate",
+        "admissionDetails": "Proof of language proficiency.",
+        "mostPopularCoursesForInternationalStudents": "Natural Sciences. ..."
+    },
+    {
+        "countryName": "Germany",
+        "visaForPakistaniStudents": "A valid passport",
+        "jobWorkOpportunitiesForStudents": "Health insurance proof",
+        "mostPopularCoursesForInternationalStudents": "Business and Economics. ..."
+    },
+    {
+        "countryName": "Germany",
+        "visaForPakistaniStudents": "Two biometric portrait photographs",
+        "mostPopularCoursesForInternationalStudents": "Architecture."
+    },
+    {
+        "countryName": "Germany",
+        "visaForPakistaniStudents": "Proof of Paid visa fee – €60",
+        "jobWorkOpportunitiesForStudents": "Financial independence proof"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+        "countryName": "United States ",
+        "costOfStudy": "The study in the USA cost varies based on the years and the college program that the students pursue. Here is the brief estimate about it.",
+        "costOfLiving": "Property taxes – 30$",
+        "admissionDetails": "Completed application form proof of secondary school completion (usually 12 years of schooling)",
+        "levelsOfEducation": "Undergraduate pathway programs",
+        "mostPopularCoursesForInternationalStudents": "Business Studies. First-year non-EU international students: 22,045.",
+        "studentLife": "Student life in the USA can be an incredible experience with the diverse cultures that students get to experience."
+    },
+    {
+        "countryName": "United States ",
+        "costOfLiving": "Utilities: 220$",
+        "jobWorkOpportunitiesForStudents": "One of the most popular choices for international students is working on campus. One can opt to work in cafeterias, computer centres, library, university office (as a receptionist) etc. One could also work as a research assistant or teaching assistant. One can work up to 20 hours per week during the school session.",
+        "admissionDetails": "Certification of English language proficiency (usually a score from the Test of English as a Foreign Language [TOEFL])",
+        "levelsOfEducation": "University degree programs",
+        "mostPopularCoursesForInternationalStudents": "Management Studies. First-year non-EU international students: 17,760. ...",
+        "studentLife": "Here, students feel free and get the chance to be independent. While the study load can be pressure in the week, students can enjoy living in the USA and visiting different places on the weekends."
+    },
+    {
+        "countryName": "United States ",
+        "costOfStudy": "Community colleges: $6,000 to $20,000/year",
+        "costOfLiving": "Gasoline and vehicle maintenance (not necessary): 300$",
+        "admissionDetails": "Evidence of financial support (required for the I-20 form -)",
+        "levelsOfEducation": "Graduate pathway programs",
+        "mostPopularCoursesForInternationalStudents": "Finance. First-year non-EU international students: 14,255. ...",
+        "studentLife": "Students get enough time to enjoy apart from just studying."
+    },
+    {
+        "countryName": "United States ",
+        "costOfStudy": "Undergraduate bachelor degree: $20,000 to $40,000/year",
+        "costOfLiving": "Shopping: $150",
+        "levelsOfEducation": "English language courses",
+        "mostPopularCoursesForInternationalStudents": "General Business and Management. ..."
+    },
+    {
+        "countryName": "United States ",
+        "costOfStudy": "Graduate programs: $20,000 to $40,000/year",
+        "costOfLiving": "Healthcare: 40$",
+        "mostPopularCoursesForInternationalStudents": "Law. ..."
+    },
+    {
+        "countryName": "United States ",
+        "costOfStudy": "English language studies: $700-$2,000/month",
+        "costOfLiving": "Groceries: 250$",
+        "mostPopularCoursesForInternationalStudents": "Computer Science. ..."
+    },
+    {
+        "countryName": "United States ",
+        "costOfStudy": "Doctoral degree: $28,000 to $55,000/year ",
+        "costOfLiving": "Transportation: $40 (vary depending on the distance from residence to university)",
+        "mostPopularCoursesForInternationalStudents": "Economics. ..."
+    },
+    {
+        "countryName": "United States ",
+        "costOfStudy": "Students wishing to study in the USA for free can opt for tuition-free universities and colleges or try for fully funded scholarships.",
+        "costOfLiving": "Miscellaneous: 100$",
+        "mostPopularCoursesForInternationalStudents": "Marketing. ..."
+    },
+    {
+        "countryName": "United States ",
+        "costOfLiving": "Study costs (yearly)"
+    },
+    {
+        "countryName": "United States "
+    },
+    {
+        "countryName": "United States ",
+        "costOfLiving": "Public universities: up to 6000$"
+    },
+    {
+        "countryName": "United States ",
+        "costOfLiving": "Private universities: 4000$-41500$"
+    },
+    {
+        "countryName": "United States ",
+        "costOfLiving": "Average Study costs at some of the top-ranked universities per year:"
+    },
+    {
+        "countryName": "United States "
+    },
+    {
+        "countryName": "United States ",
+        "costOfLiving": "The University of Bologna – 3550$"
+    },
+    {
+        "countryName": "United States ",
+        "costOfLiving": "The University of Trento – 4800$"
+    },
+    {
+        "countryName": "United States ",
+        "costOfLiving": "The Polytechnic University of Milan – 4700$"
+    },
+    {},
+    {},
+    {
+        "countryName": "Italy ",
+        "costOfStudy": "Education is free",
+        "costOfLiving": "Generally, a student requires 1500-1800$ monthly to fulfill all living expenses. These estimates may vary around 300$ more or less, according to lifestyle.",
+        "visaForPakistaniStudents": "Visa application form.",
+        "jobWorkOpportunitiesForStudents": "Health-related occupations.",
+        "admissionDetails": "In order to meet entry requirements for a bachelor's degree at an Italian university, you must successfully have completed upper secondary studies, have a valid school leaving certificate and qualify for higher education studies in your home country.",
+        "levelsOfEducation": "Associate Degree. Associate degrees are usually obtained at a community college, junior college or technical school. ...",
+        "mostPopularCoursesForInternationalStudents": "Science and Technology.",
+        "studentLife": "Italy is an affordable destination for international students. Italy is one of the most affordable countries in Europe where you can study abroad and that goes for tuition fees and living costs as well. You can also check out the Studyportals Scholarship to get some help on financing your studies in Italy.",
+        "studyInScholarships": "Bocconi Merit and International Awards. ..."
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Accommodation",
+        "visaForPakistaniStudents": "Passport-size photographs (3 at least)",
+        "jobWorkOpportunitiesForStudents": "ICT professionals.",
+        "levelsOfEducation": "Bachelor's Degree. ...",
+        "mostPopularCoursesForInternationalStudents": "Art and Design.",
+        "studyInScholarships": "University of Bologna Study Grants for International Students. ..."
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Hall of residence (University hostels) – Not provided by all universities. These are a good option for students who are willing to study in Italy for free and are on a scholarship.",
+        "visaForPakistaniStudents": "Proof of arranged accommodation.",
+        "jobWorkOpportunitiesForStudents": "Marketing, creative and design professionals.",
+        "levelsOfEducation": "Master's Degree. ...",
+        "mostPopularCoursesForInternationalStudents": "Social Studies.",
+        "studyInScholarships": "Padua International Excellence Scholarship Programme. ..."
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Private residence – 250-800$ per month",
+        "visaForPakistaniStudents": "Proof of sufficient financial means.",
+        "jobWorkOpportunitiesForStudents": "STEM occupations.",
+        "levelsOfEducation": "Doctoral Degree.",
+        "mostPopularCoursesForInternationalStudents": "Education.",
+        "studyInScholarships": "International Scholarship for the Master in Management of Sustainable Development Goals."
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Alone: 500-800$",
+        "visaForPakistaniStudents": "Paid 200$ health insurance for the first year of a study program.",
+        "jobWorkOpportunitiesForStudents": "Teaching professionals.",
+        "mostPopularCoursesForInternationalStudents": "Humanities."
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Rented apartment: 300-500$",
+        "visaForPakistaniStudents": "Acceptance letter from the university.",
+        "mostPopularCoursesForInternationalStudents": "Health."
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Student accommodation: 300-450$",
+        "mostPopularCoursesForInternationalStudents": "Hospitality."
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Property taxes – 30$"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Utilities: 220$"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Gasoline and vehicle maintenance (not necessary): 300$"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Shopping: $150"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Healthcare: 40$"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Groceries: 250$"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Transportation: $40 (vary depending on the distance from residence to university)"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Miscellaneous: 100$"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Study costs (yearly)"
+    },
+    {
+        "countryName": "Italy "
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Public universities: up to 6000$"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Private universities: 4000$-41500$"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "Average Study costs at some of the top-ranked universities per year:"
+    },
+    {
+        "countryName": "Italy "
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "The University of Bologna – 3550$"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "The University of Trento – 4800$"
+    },
+    {
+        "countryName": "Italy ",
+        "costOfLiving": "The Polytechnic University of Milan – 4700$"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+        "countryName": "Malaysia",
+        "costOfStudy": "University tuition fee (Total): 10,000-20,000 RM (if scholarships don’t apply)",
+        "costOfLiving": "Accommodation costs: RM350 – RM3000",
+        "visaForPakistaniStudents": "Scan Passport First Page Valid Passport with Signature page signed.",
+        "jobWorkOpportunitiesForStudents": "Tutor Other Students. Average Rate: $24.11 per hour. ...",
+        "admissionDetails": "Eligibility Criteria",
+        "levelsOfEducation": "Higher Education covers certificate, diploma, undergraduate as well as postgraduate levels",
+        "mostPopularCoursesForInternationalStudents": "Business Management Courses.",
+        "studentLife": "ith top-notch education standards, Malaysia is fast becoming a hot favourite with international students. Its educational institutes are counted within the top 200 universities in the world. ... If you are planning to study abroad, here is an article that lists why Malaysia is a great place for higher studies",
+        "studyInScholarships": "the financial aid office at a college or career school."
+    },
+    {
+        "countryName": "Malaysia",
+        "costOfStudy": "Student pass fee (yearly): 60RM",
+        "costOfLiving": "Accommodation offered by Universities: RM300 – RM 600 per semester",
+        "visaForPakistaniStudents": "1 Scan Photograph (34x45 mm Size, white Background).",
+        "jobWorkOpportunitiesForStudents": "Barista. Average Rate: $10.88 per hour. ...",
+        "admissionDetails": "One credit or Equivalent with IGCSE/SPM",
+        "mostPopularCoursesForInternationalStudents": "Engineering Courses in Malaysia.",
+        "studyInScholarships": "a high school or TRIO counselor."
+    },
+    {
+        "countryName": "Malaysia",
+        "costOfStudy": "Visa fees: vary depending on institute type (RM800-1200)",
+        "costOfLiving": "Food: 100-300RM",
+        "visaForPakistaniStudents": "Scan CNIC Front & Back.",
+        "jobWorkOpportunitiesForStudents": "Retail Sales Associate. Average Rate: $11.38 per hour. ...",
+        "admissionDetails": "Three credits or Equivalent with IGCSE/SPM",
+        "mostPopularCoursesForInternationalStudents": "Medicine.",
+        "studyInScholarships": "the U.S. Department of Labor's FREE scholarship search tool."
+    },
+    {
+        "countryName": "Malaysia",
+        "costOfLiving": "Groceries: RM300",
+        "visaForPakistaniStudents": "Updated Online 6 Months Bank Statment with Min PKR 100,000 Closing Balance (in PDF format).",
+        "jobWorkOpportunitiesForStudents": "Babysitter. Average Rate: $15.27 per hour. ...",
+        "admissionDetails": "Five credits or Equivalent with IGCSE/SPM",
+        "mostPopularCoursesForInternationalStudents": "Mass communication in Malaysia.",
+        "studyInScholarships": "federal agencies."
+    },
+    {
+        "countryName": "Malaysia",
+        "costOfLiving": "Transport: Public transport costs up to RM150",
+        "jobWorkOpportunitiesForStudents": "Pet Care. Average Rate: $11.53 per hour. ...",
+        "admissionDetails": "A levels CGE with English proficiency",
+        "mostPopularCoursesForInternationalStudents": "Accounting and finance.",
+        "studyInScholarships": "your state grant agency."
+    },
+    {
+        "countryName": "Malaysia",
+        "costOfLiving": "Utilities: RM250-RM350",
+        "jobWorkOpportunitiesForStudents": "Gym Receptionist. ...",
+        "mostPopularCoursesForInternationalStudents": "Hospitality and Tourism.",
+        "studyInScholarships": "your library's reference section"
+    },
+    {
+        "countryName": "Malaysia",
+        "costOfLiving": "Personal expenses: 200-250RM",
+        "jobWorkOpportunitiesForStudents": "Become a Resident Advisor.",
+        "mostPopularCoursesForInternationalStudents": "Art and Design."
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+        "countryName": "Sweden",
+        "costOfStudy": "Tuition fees in Sweden range from approximately SEK 80,000 per year (approximately 7,915 EUR or 9,523 USD as of Feb, 2021) to SEK 295,000 (or approximately 29,188 EUR or 35,117 USD",
+        "costOfLiving": "Yearly study in Sweden costs depending on your University and lifestyle. However, the estimated costs are discussed below:",
+        "visaForPakistaniStudents": "The best part about studying in Sweden is that you can stay there for six months after your degree completion. The requirements for resident permits depend on the University of you choose, which can be accessed from the official websites.",
+        "jobWorkOpportunitiesForStudents": "Sweden gives foreign students the opportunity to work while studying. While there is no formal limit to the number of hours you will work during your study, it is important to remember that you are supposed to spend about 40 hours per week on your academics.",
+        "admissionDetails": "Documentation proving that you meet the general entry requirements for bachelor's ↗️ or master's ↗️ programmes.",
+        "levelsOfEducation": "High school degree (diploma) or equivalent",
+        "mostPopularCoursesForInternationalStudents": "Information Systems. Master Degree. Linnaeus University. ...",
+        "studentLife": "With decent University accommodations, a fancy night life, access to social life within student unions and outside friends, you can have the best student life in Swedish Universities. Sports, fitness, hiking, handball, hockey, boating, and camping are some of the best outdoor activities in Sweden.",
+        "studyInScholarships": "You can study in Sweden for free by availing any fully or partially funded study in Sweden scholarships. Some of these are listed below:"
+    },
+    {
+        "countryName": "Sweden",
+        "visaForPakistaniStudents": "You have to apply for Schengen visas to study in Sweden with the following requirements.",
+        "admissionDetails": "Proof of English proficiency ↗️",
+        "levelsOfEducation": "Bachelor's degree",
+        "mostPopularCoursesForInternationalStudents": "Sustainable Urban Mobility Transitions. MSc. ..."
+    },
+    {
+        "countryName": "Sweden",
+        "costOfLiving": "One time application fee: 90 EUR",
+        "admissionDetails": "Documentation showing that you meet programme-specific entry requirements.",
+        "levelsOfEducation": "Master's degree (sometimes bachelor degrees are acceptable)",
+        "mostPopularCoursesForInternationalStudents": "Analytical Finance. BSc. ...",
+        "studyInScholarships": "Swedish Institute Scholarships for Global Professionals"
+    },
+    {
+        "countryName": "Sweden",
+        "costOfLiving": "Tuition fee: 8,300-25,000 EUR",
+        "visaForPakistaniStudents": "Visa application form",
+        "mostPopularCoursesForInternationalStudents": "Master's Programme in Political Science. MSc. ...",
+        "studyInScholarships": "BTH Scholarships"
+    },
+    {
+        "countryName": "Sweden",
+        "costOfLiving": "Textbooks and literary material: Around 900 EUR",
+        "visaForPakistaniStudents": "Passport-size photographs (2 at least)",
+        "mostPopularCoursesForInternationalStudents": "Computer Engineering, 2 years. MA. ...",
+        "studyInScholarships": "Dalarna University Scholarships"
+    },
+    {
+        "countryName": "Sweden",
+        "costOfLiving": "Living costs: 9500 EUR (The monthly division is given below)",
+        "visaForPakistaniStudents": "Proof of arranged accommodation",
+        "mostPopularCoursesForInternationalStudents": "MA Fine Arts - CRAFT! MA. ...",
+        "studyInScholarships": "Stockholm School of Economics Scholarships"
+    },
+    {
+        "countryName": "Sweden",
+        "costOfLiving": "Accommodation: 830 EUR",
+        "visaForPakistaniStudents": "Proof of sufficient financial means (44 EUR/day)",
+        "mostPopularCoursesForInternationalStudents": "Biology Programme. Bachelor Degree. ...",
+        "studyInScholarships": "The World Bank Scholarship and Fellows Program"
+    },
+    {
+        "countryName": "Sweden",
+        "costOfLiving": "Universities dormitories: 300-650 EUR",
+        "visaForPakistaniStudents": "Valid passport and copy with blank visa pages",
+        "mostPopularCoursesForInternationalStudents": "International Relations. Bachelor Degree."
+    },
+    {
+        "countryName": "Sweden",
+        "costOfLiving": "Food: 200 EUR",
+        "visaForPakistaniStudents": "Civil status proof"
+    },
+    {
+        "countryName": "Sweden",
+        "costOfLiving": "Transportation: 110-300 EUR",
+        "visaForPakistaniStudents": "Travel health insurance proof of 30,000 EUR"
+    },
+    {
+        "countryName": "Sweden",
+        "costOfLiving": "Social activities: 100 EUR",
+        "visaForPakistaniStudents": "An enrollment certificate"
+    },
+    {
+        "countryName": "Sweden",
+        "costOfLiving": "Health insurance: from 30 EUR"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "MEDICAL FIELDS",
+        "costOfLiving": "Type",
+        "visaForPakistaniStudents": "After receiving invitation letter from univerdsity, students should contact drivethru. They should apply for Ukarine visa with following documents.",
+        "jobWorkOpportunitiesForStudents": "Work at the University. Working on campus is one of the most popular options for international students. ...",
+        "admissionDetails": "To start the admission process, you should provide us with the following documents:",
+        "mostPopularCoursesForInternationalStudents": "Ukraine offers a wide variety of courses to choose from, such as arts, aviation, agriculture, accounting, aerospace engineering, Biochemistry, Biomedical engineering, Chemical engineering, computer science, Business & Economics, Electrical engineering, Journalism and communications, Law, MBA, MBBS, Nursing, Pharmacy, ...",
+        "studyInScholarships": "The Gilman Scholarship Program."
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfLiving": "Average Cost for Food 60-90 US$ / Monthly",
+        "visaForPakistaniStudents": "Original invitation letter",
+        "jobWorkOpportunitiesForStudents": "Restaurants and Bars. ...",
+        "levelsOfEducation": "Associate Degree. Associate degrees are usually obtained at a community college, junior college or technical school. ...",
+        "studyInScholarships": "School of Russian and Asian Studies Scholarships and Grants."
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Hostel fees $1200",
+        "costOfLiving": "Average Cost for Hostel 100 US$ / Monthly",
+        "visaForPakistaniStudents": "Original international passport",
+        "jobWorkOpportunitiesForStudents": "Call Centres. ...",
+        "admissionDetails": "#NAME?",
+        "levelsOfEducation": "Bachelor's Degree. ...",
+        "studyInScholarships": "The Boren Awards."
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "General medicine/Nursing /pharmacy/ clinical residence/ dentistry $4400",
+        "costOfLiving": "Average Monthly Expenses 100-150 US$",
+        "visaForPakistaniStudents": "Higher secondary school certificate",
+        "jobWorkOpportunitiesForStudents": "Customer Service related jobs. ...",
+        "admissionDetails": "#NAME?",
+        "levelsOfEducation": "Master's Degree. ...",
+        "studyInScholarships": "IREX Scholarships."
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "preaparator /pre medical department $1500",
+        "costOfLiving": "Private Apartment (Shared) 80-150 US$ / Monthly",
+        "visaForPakistaniStudents": "Bank statement",
+        "jobWorkOpportunitiesForStudents": "Internship. ...",
+        "admissionDetails": "#NAME?",
+        "levelsOfEducation": "Doctoral Degree.",
+        "studyInScholarships": "Ukrainian International Education Council Scholarships and Grants."
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Other Expenses for First year only (these charges are paid only first time upon arrival and only once): ◄ Registration Fee, Admission Fee, Administrative Fee, Immigration clearance charges, Airport Pick-up, etc.: 1800 US$ (only for first year) Other Expenses for first year only (these charges are paid once and cover fees for the whole period of study): ◄ Medical Insurance: 400-600 US (100US$ per year) ◄ Visa Extension ◄ Medical checkup: 200 US$",
+        "visaForPakistaniStudents": "Medical insurance",
+        "jobWorkOpportunitiesForStudents": "Volunteering. ...",
+        "admissionDetails": "#NAME?",
+        "studyInScholarships": "Education Future International Scholarship."
+    },
+    {
+        "countryName": "Ukarine",
+        "visaForPakistaniStudents": "1 Passport size photo",
+        "jobWorkOpportunitiesForStudents": "Term Time Work vs.",
+        "admissionDetails": "After  receiving  all  required  documents,  we  will  provide  you  with  the"
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "AVIATION/ ENGINEERING/COMPUTER/ IT/ ECONOMICS FIELDS",
+        "admissionDetails": "Admission/Confirmation letter from the university within 1 working day via e-mail."
+    },
+    {
+        "countryName": "Ukarine",
+        "admissionDetails": "After receiving the Admission/Confirmation letter, if the student agrees to apply for the invitation letter, he/she will need pay the invitation charges and courier charges in the amount of 200$ to the provided account details."
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "ECONOMICS FIELDS: Economics/ International Economics/ Business Administration/ Management/ Accounting & Audits/ Banking & Finance/ Hotel & Tourism Management COMPUTER/ IT FIELDS",
+        "admissionDetails": "After made payment, we will apply to the University for the Invitation Letter. Usually, it takes 4-7 working days to get it issued. The original invitation letter will be sent to you through courier agency."
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Bachelor $3000",
+        "admissionDetails": "When the student gets the original invitation letter, he/she will need to collect all required documents and apply for visa to the Ukrainian Embassy."
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Master $3500"
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Phd $3000"
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Hostel $1200"
+    },
+    {
+        "countryName": "Ukarine"
+    },
+    {
+        "countryName": "Ukarine"
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "HUMANITARIAN SCIENCE FIELDS"
+    },
+    {
+        "countryName": "Ukarine"
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Biology/ Physiology/ Biotechnology/ Ecology/ Chemistry/ Chemical Technologies/ Physics/ Nuclear Physics/ Geography sciences/ Mathematics/ Mathematical Modelling/ Law sciences/ History/ Journalism/ Mass Media"
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Bachelor $2500"
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Master $3000"
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Phd $3000"
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Hostel/year $1200"
+    },
+    {
+        "countryName": "Ukarine",
+        "costOfStudy": "Registration Fee, Admission Fee, Administrative Fee, Immigration clearance charges, Airport Pick-up, etc.: 1800 US$ (only for first year) Other Expenses for first year only (these charges are paid once and cover fees for the whole period of study): ◄ Medical Insurance: 200-400 US (100US$ per year) ◄ Visa Extension ◄ Medical checkup: 200 US$"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+        "countryName": "Kazakstan",
+        "costOfStudy": "you should expect to pay between $200/€175 and $3500/€3,000.",
+        "costOfLiving": "An average international student here will spend about USD 400-500 a month on accommodation, food, clothing, entertainment, transportation, and telephone costs. Books and administrative fees are approximately USD100-150 per semester.",
+        "visaForPakistaniStudents": "A valid passport.",
+        "jobWorkOpportunitiesForStudents": "On-Campus Employment. ...",
+        "admissionDetails": "Bachelor Programs:",
+        "levelsOfEducation": "Bachelor Programs:",
+        "mostPopularCoursesForInternationalStudents": "Economics (79)",
+        "studentLife": "Still a new destination for international students, Kazakhstan is already garnering an impressive reputation for higher education. Kazakhstan is a Central Asian powerhouse, and is one of the wealthier countries in that area. The country is a mixing pot of ethnicities, which diversifies the culture and education system."
+    },
+    {
+        "countryName": "Kazakstan",
+        "visaForPakistaniStudents": "Visa application form.",
+        "jobWorkOpportunitiesForStudents": "Off-Campus Employment. ...",
+        "levelsOfEducation": "Masters Programs:",
+        "mostPopularCoursesForInternationalStudents": "Management (75)"
+    },
+    {
+        "countryName": "Kazakstan",
+        "visaForPakistaniStudents": "National ID copy.",
+        "jobWorkOpportunitiesForStudents": "Curricular Practical Training (CPT) ...",
+        "admissionDetails": "Senior Secondary/High School Certificate",
+        "levelsOfEducation": "Ph.D. Programs:",
+        "mostPopularCoursesForInternationalStudents": "IT (63)"
+    },
+    {
+        "countryName": "Kazakstan",
+        "visaForPakistaniStudents": "Fee payment receipt.",
+        "jobWorkOpportunitiesForStudents": "Optional Practical Training (OPT)",
+        "admissionDetails": "Identification Documents",
+        "mostPopularCoursesForInternationalStudents": "Accounting (63)"
+    },
+    {
+        "countryName": "Kazakstan",
+        "visaForPakistaniStudents": "Travel Insurance.",
+        "admissionDetails": "Health Insurance",
+        "mostPopularCoursesForInternationalStudents": "Law & Jurisprudence (59)"
+    },
+    {
+        "countryName": "Kazakstan",
+        "visaForPakistaniStudents": "Proof of purpose of visit - admission application, etc.",
+        "admissionDetails": "IELTS",
+        "mostPopularCoursesForInternationalStudents": "Philology (55)"
+    },
+    {
+        "countryName": "Kazakstan",
+        "visaForPakistaniStudents": "Proof of confirmation of admission - admission fee receipt, letter of confirmation etc",
+        "admissionDetails": "Signed online application form",
+        "mostPopularCoursesForInternationalStudents": "Finance & Banking (53)"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "International passport or travel document"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Health report"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Senior Secondary/High School Results"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Masters Programs:"
+    },
+    {
+        "countryName": "Kazakstan"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Bachelor’s certificate"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Identification Documents"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Health Insurance"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "IELTS"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Academic transcripts from an undergraduate program"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "International passport or travel document"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Health report"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Ph.D. Programs:"
+    },
+    {
+        "countryName": "Kazakstan"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Masters degree certificate"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Identification Documents"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Health Insurance"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "IELTS"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Bachelor’s degree certificate"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Transcripts from a masters program"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Transcripts from a bachelors program"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "International passport or travel document"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "Curriculum Vitae"
+    },
+    {
+        "countryName": "Kazakstan",
+        "admissionDetails": "A further interview assessment by the admissions committee and the department of the university."
+    },
+    {},
+    {},
+    {
+        "countryName": "kyrgyzstan",
+        "costOfStudy": "Typical tuition fees at private universities range from $1,800 for Kyrgyzstan nationals to $32,00 for foreign students.",
+        "costOfLiving": "The cost of living in Kyrgyzstan for Pakistani students in comparison to the western countries is very low.",
+        "visaForPakistaniStudents": "Requirements",
+        "jobWorkOpportunitiesForStudents": "Many colleges in Kyrgyzstan allow students to take up part-time jobs either within the college premises or in private organizations, whichever is most suitable for them. Usually, the maximum work-time, a student enrolled at one of the colleges in Kyrgyzstan is allowed to take up part-time work, is 20 hours a week. Students will also be required to ensure that their working hours do not clash with their study hours at college.",
+        "mostPopularCoursesForInternationalStudents": "Economics 171    Business172    Management163   Accounting144   Education  135   Philology136  IT127  Computer Science118  Finance & Banking119  Communication1110",
+        "studentLife": "Kyrgyzstan is a country with beautiful and un-spoiled natural landscapes, nomadic traditions, and a rich cultural society and heritage. A very decent and nature friendly lifestyle is the very first approach of Kyrgyzstan people for Pakistani students. Find out what type of expat life Kyrgyzstan has for the Pakistani student, from leisure options to the education and healthcare systems. International students are coming from different countries around the world with their own cultures, different perspectives and lifestyles. The main goal is to adapt to the new environment"
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Accommodation costs in Kyrgyzstan",
+        "visaForPakistaniStudents": "Application form."
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "The cost of a house in Kyrgyzstan varies according to the size of the place, a Pakistani student can rent a place according to their requirements, one two or three bedroom apartments. The rent can vary with the location of the place as well, it’s very costly in posh areas.",
+        "visaForPakistaniStudents": "Passport size photos.",
+        "jobWorkOpportunitiesForStudents": "The average earning that a student receives in a part-time job in Kyrgyzstan depends on the type of job role, working hours and working shifts. An Indian student can expect an earning of around Rs 3,000 to Rs 5,000 per month through a part-time job."
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Accommodation is the second most important cost for the pre departure expenses, first of all try to get accommodation in campus, as in hostel of student halls, which will cost not more than $60 to $80 per month, else you have to see an apartment, which will cost at least $150 to $190 per month.",
+        "visaForPakistaniStudents": "Valid Passport."
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "visaForPakistaniStudents": "Letter of acceptance from educational institution.",
+        "jobWorkOpportunitiesForStudents": "Various types of part-time jobs are available for international students in Kyrgyzstan, some of which are as follows:"
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Clothes Price in Kyrgyzstan",
+        "visaForPakistaniStudents": "Required receipts of all paid fees."
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Cost of Living in Kyrgyzstan includes other expenditures as well, there is varied requirement for clothing in Kyrgyzstan as the weather does not remain the same all year round. Clothes Price in Kyrgyzstan for Pakistani Students is a little costly than Pakistan for example a pair of jeans is 6000 Pkr in Kyrgyzstan.",
+        "visaForPakistaniStudents": "Proof of sufficient funds that you can support yourself in Kyrgyzstan.",
+        "jobWorkOpportunitiesForStudents": "On-Campus Part-time Jobs: The on-campus jobs are most suitable for students as it saves a lot of time which is otherwise spent on travelling. Various types of on-campus part time jobs include jobs in the cafeteria, library, supermarkets, assistant in labs, content creator, front office jobs etc."
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "visaForPakistaniStudents": "Letter of institution or organization if expense of studies will be covered by a scholarship or loan.",
+        "jobWorkOpportunitiesForStudents": "Off-Campus Part-Time Jobs: As campus part-time jobs are limited many students apply for jobs outside the campuses. Some of the part-time jobs taken by students include newspaper delivery boy, food delivery boy, a cashier at restaurants, a helper at the supermarkets, grocery stores, showrooms, fuel pumps or as private tutor, tourist guide etc."
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Kyrgyzstan Travel Budget"
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfStudy": " ",
+        "costOfLiving": "The School Dorms are usually adjacent to the schools, so transport is not a daily need for dormitory students. For homestays, it will be a daily need therefore travel budget for Pakistani students in Kyrgyzstan in needed. The most commonly used public transportation type in Bishkek are the marshrutka and trolleybus."
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Marshrutki: These are white mini vans. You will need to always been on the lookout for where you destination is for the drivers do not call out the stops. The routes are about $0.15 per ride."
+    },
+    {
+        "countryName": "kyrgyzstan"
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Trolleybuses: These are huge buses that have regular stops throughout the city. They cost $0.11 per ride."
+    },
+    {
+        "countryName": "kyrgyzstan"
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Taxis: Taxis can be hailed from the mobile taxi apps, the apps are safer and more reliable. Rides typically cost from $1 to $8 for rides throughout the city."
+    },
+    {
+        "countryName": "kyrgyzstan"
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Average weekly transport spending, (dorms) $1 to $2 per week and (home stay) $3 to $6 per week, that’s affordable."
+    },
+    {
+        "countryName": "kyrgyzstan"
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Food price in Kyrgyzstan"
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "Cost of living in Kyrgyzstan includes the food as well. The cost of food in Kyrgyzstan is not that much expensive, even it is quite affordable. The cost of a meal in an inexpensive restaurant is around $4 and in an good restaurant is around $6-$8, the cost of a McDonald’s combo meal is around $4, a can of Pepsi $0.37 and water $0.27, the monthly cost food if you made it at your will not be more than $28 to $30 and if you eat at campus canteen than $30 to $32."
+    },
+    {
+        "countryName": "kyrgyzstan",
+        "costOfLiving": "While a Pakistani student studies in Bishkek Kyrgyzstan, you will find a lot of adventurous stuff to do around Bishkek, such as hiking etc. You can take advantage of that for the cost of a cheap taxi ride and a packed lunch. If you wish to leave Bishkek for a weekend, the city of Almaty in Kazakhstan is only 3 to 4 hours away by car."
+    },
+    {
+        "countryName": "China",
+        "costOfStudy": "Application fee of different major for different degree in every university varies from 90 USD to 150 USD, normally not in excess of 200 USD. Among all the programs offered by universities, MBBS may be the most expensive one regarding application fee. Besides, the higher ranking of a university in China’s University List, the more expensive of the application fee will be.",
+        "costOfLiving": "Living cost in metropolitan areas like Beijing, Shanghai, Guangzhou would be 4500-5000RMB/month (around 740 USD-830 USD/ month); Other cities would be around 1500-3500RMB/month (around 250 USD-580 USD/ month). However, this mainly depends on your lifestyle, though eating out in China is very cheap compared to many other countries.",
+        "visaForPakistaniStudents": "After getting your offer letter or letter of acceptance from Chinese University where you had applied for admission you can visit Chinese Embassy or Consulate nearest to your area to know the perquisites of visa application. The international students belonging from UK, Canada, Australia and European countries can apply for student visa of China through CVASC (Chinese VISA Application Service Centre). All other international students will visit Chinese Embassy or Consulate in their home country and place their visa application personally. The visa application can be submitted through travel agency or study abroad consultants in case there is a genuine reason due to which you can’t come to Embassy in person. You cannot mail your visa application because it will be refused by Chinese Embassy. You can visit Chinese Embassy in business hours and working days anytime but it is preferable to visit before 11:00 am so that you can take all the needed information in detail without rush.",
+        "jobWorkOpportunitiesForStudents": "How Pakistani Students can Take Permission to Work Part Time in China",
+        "admissionDetails": "Entry Requirements In Chinese Universities",
+        "levelsOfEducation": "For quality education, China’s tuition fees are remarkably low, making the country excessively affordable for those seeking a good abroad education.",
+        "mostPopularCoursesForInternationalStudents": "Below is a list of the top most popular subjects in China.",
+        "studentLife": "In fact, life in China is not much different from anywhere else in the world. If students are studying in major cities like Shanghai, Beijing and Guangzhou, the lifestyle of the local people in some way influence by western cultures. The shopping, entertainment and food in these big cities are world class. Western fast food restaurants like Starbucks, McDonald, Kentucky can easily be found in big cities. Chinese cuisine is quite delicious and students will be excited to taste plenty of great fare. Other cuisines like Japanese, Korea are easily available.",
+        "studyInScholarships": "Chinese Government funded scholarships"
+    },
+    {
+        "countryName": "China",
+        "visaForPakistaniStudents": "Documents Requirements for Student Visa of China",
+        "jobWorkOpportunitiesForStudents": "To work part time the student visa holders of China (X1 visa) had to seek permission from there hosting Chinese institution and the immigration department of China. The procedure to seek permission for part time work has to be done by following steps:",
+        "admissionDetails": "By Degree Level",
+        "studentLife": "International students studying in China have many great things to look forward to. The big cities in China offer some of the best hobbies and activities around. There is also a number of exciting activities available to students including karaoke, movie theaters, ice skiing and lake activities like water skiing, boating and kayaking. Students who like sports will also enjoy China, as the Chinese love soccer, badminton, ping pong, martial arts and basketball.",
+        "studyInScholarships": "China Scholarship Council (CSC) Scholarships– CSC scholarships are open to all international students who wish to study in China. You will be asked to fill out an online form and select one of the 243 Chinese universities offering CSC scholarships."
+    },
+    {
+        "countryName": "China",
+        "costOfStudy": "However, the tuition fee of Chinese universities is quite low compared with that of UK/USA. The estimated average tuition fee ranges from",
+        "visaForPakistaniStudents": "Valid passport of applicant ( the passport must be valid for at least 6 month and it must have at least one blank page for visa stamp)",
+        "admissionDetails": "                                                                                                Foundation Programs:  Must be 16 to 25 years old. If under 18, you need to find a guardian in China.",
+        "levelsOfEducation": "While annual tuition fees can amount to USD 15,000 in several countries around the world, in China students can obtain a degree from a top 50 university paying a small annual fee of USD 1,500.",
+        "mostPopularCoursesForInternationalStudents": "1. Clinical Medicine",
+        "studentLife": "The campus life in China universities is rich, colorful and fulfilling. You will find campus life in China vibrant and welcoming with many opportunities to get involved in events and activities that might attract and interest you. Nearly all the universities have offered various fully equipped facilities for the convenience of students for spare time sports activities.When international students decide to study in China, they are embarking a new journey of study life and step out from their comfort zone. They will be trained to be more independence, flexible, enjoy the unexpected and meeting new people and cultures from many countries around you.",
+        "studyInScholarships": "Jiangsu Government Scholarship–The Jiangsu Provincial Government set up the Jiangsu Government Scholarship to encourage international students to study in Jiangsu. The scholarship will award you the full cost of tuition, registration, lab experiment, internships, accommodation, medical insurance and basic textbooks."
+    },
+    {
+        "countryName": "China",
+        "costOfStudy": "3300 USD (around20,000 RMB) to 9900 USD (around 60,000RMB) per year",
+        "visaForPakistaniStudents": "Completely and accurately filled student visa application form",
+        "jobWorkOpportunitiesForStudents": "Write an application to your hosting Chinese institution for consent to work part time",
+        "admissionDetails": "Bachelor’s:  Must have graduated from high school with good grades and academic background. Must be under 35 years old, but some programs can be flexible.",
+        "levelsOfEducation": "Study Level",
+        "mostPopularCoursesForInternationalStudents": "This study focuses heavily on medical treatment, which tends to be one of the most important studies for foreigners in China. The technology in China is so far one of the best and supports hospitals and research laboratories to succeed in healthcare breakthroughs in the recent past. Additionally, China is famous for its traditional medicine. These traditional medicines have been around for thousands of years. Chinese Traditional Medicine often tends to be more effective than modern western medicine in some clinical diagnosis.",
+        "studyInScholarships": "Hubei Provincial Scholarships– This scholarship is open to students wishing to study a bachelor’s, PhD, or master’s degree in any subject taught in any university in Hubei which is participating in the Hubei Provincial scholarship scheme."
+    },
+    {
+        "countryName": "China",
+        "visaForPakistaniStudents": "Two recently taken passport size photographs of applicant",
+        "jobWorkOpportunitiesForStudents": "You will attach certificate from your hiring employer/ company with your application",
+        "admissionDetails": "Master’s: Must have obtained a bachelor’s degree.Must meet GPA requirements, but some programs can be flexible. \r\nFor non-native English speakers, you may be required to submit an English Language Test Certificate.",
+        "levelsOfEducation": "Bachelor's Degree",
+        "studyInScholarships": "Beijing Government Scholarship– The Beijing Municipal Government is offering scholarships to international students looking to study at universities in Beijing. The scholarship covers tuition fees either fully or partially and is open to undergraduates and master’s students"
+    },
+    {
+        "countryName": "China",
+        "visaForPakistaniStudents": "Acceptance letter or offer letter from Chinese university (it must be original and a copy of the same will also be required)",
+        "jobWorkOpportunitiesForStudents": "Your hosting institution will forward your part time work approval application to immigration department and seek their documented official consent",
+        "admissionDetails": "PhD: Must have obtained a master’s degree. Non-native English speakers may be required to submit an English Language Test Certificate.",
+        "levelsOfEducation": "Master's Degree",
+        "mostPopularCoursesForInternationalStudents": "Some Chinese Universities in China are top-rated for giving this particular subject. These schools have all climbed in the World Ranking of Universities worldwide. The most recommended school that offers the Clinical Medicine study at Peking University Union College, Capital Medical University. Wuhan University is also a good university offering surprising possibilities for you if you are interested in studying this subject.",
+        "studyInScholarships": "Guanxi Government Scholarship for ASEAN Students– This scholarship was established by the People’s Government of Guangxi Zhuang Autonomous Region in 2010 to fund international students from ASEAN countries who wish to study in one of Guangxi’s universities for their bachelor’s, master’s or PhD. The scholarship includes the cost of tuition fees, textbooks and other teaching materials, accommodation and medical insurance, as well as including living expenses for a month."
+    },
+    {
+        "countryName": "China",
+        "visaForPakistaniStudents": "Proof of paid visa application fee (the fee is around 600 USD)",
+        "jobWorkOpportunitiesForStudents": "Get consent letter from your hosting Chinese institution",
+        "levelsOfEducation": "Doctorate's Degree",
+        "mostPopularCoursesForInternationalStudents": "2. International Economics and Trade",
+        "studyInScholarships": "Non-government funded scholarships"
+    },
+    {
+        "countryName": "China",
+        "visaForPakistaniStudents": "Resident permit (it is applicable to you If you are applying from a country where you are living on a resident permit, the Chinese Embassy will need a proof of your legal status in that country)",
+        "jobWorkOpportunitiesForStudents": "Visit local police station of China nearest to your residence and have your resident permit of China marked with ‘Part Time Work’",
+        "admissionDetails": "Application Documents",
+        "mostPopularCoursesForInternationalStudents": "Another excellent study in China is International Economics and Trade. China is the largest Trade Country in the world with well-designed logistics, transport, and Trade systems. Universities offering this course have the right case studies, statistics, and scenarios to teach International students. One of the secure areas of investment in China is International Trade and Commerce, creating several job opportunities for students who graduate from this course. Cities like Tianjin, Shanghai, Guangzhou, Shenzhen, and Qingdao are very famous for International Trade.",
+        "studyInScholarships": "Confuncius Institutue Scholarship– There are seven types of scholarship on offer from the Confucius Institute headquarters for international students between the ages of 16 and 35, looking to study in a Chinese university. There are options available for undergraduate and postgraduate students and the scholarship covers tuition fees, accommodation fees and offers a monthly living allowance and comprehensive medical insurance."
+    },
+    {
+        "countryName": "China",
+        "visaForPakistaniStudents": "Proof of arranged accommodation in China for the duration of your stay",
+        "jobWorkOpportunitiesForStudents": "You will be allowed to work part time 20 hours a week in China during semesters and during semester breaks you can work full time",
+        "admissionDetails": "Required documents are very similar for most universities in China. For more advanced degrees such as master’s and PhD, there may be a few additional documents to submit. The basic ones that you need to prepare include:",
+        "mostPopularCoursesForInternationalStudents": "3. Computer Science and Technology",
+        "studyInScholarships": "British Council China Scholarship– The British Council in China is offering seven scholarships for UK students currently enrolled at a UK institution who wish to study at a Chinese university in the People’s Republic of China. The scholarships cover tuition fees, accommodation and a monthly living allowance."
+    },
+    {
+        "countryName": "China",
+        "visaForPakistaniStudents": "Arrangement of airplane ticket for your travel and return back to your country ( return ticket ensures that your sole intention of travelling to China is educational).",
+        "jobWorkOpportunitiesForStudents": "You cannot change your employer frequently in China for part time work so make sure the job you have selected for part time suits your interest and pays you satisfactory amount.",
+        "mostPopularCoursesForInternationalStudents": "We are in the age of technological breakthroughs impacting our lives at various levels. China is leading in the number of patents filed at the international level, which a clear indication of progress. 5G, Virtual realities, artificial intelligence, Computer vision, and machine learning are the top areas in China. There are so much investment and available capital for entrepreneurs who want to explore these technologies.",
+        "studyInScholarships": "University specific scholarships to study in China"
+    },
+    {
+        "countryName": "China",
+        "visaForPakistaniStudents": "Medical examination certificate (the applicant who are enrolled in a full time study program in China are required to prove that they are in good health, for that they will have medical examination certificate declaring them as fit to travel and stay in China for study)",
+        "jobWorkOpportunitiesForStudents": "Types of Part Time Jobs in China for International Students",
+        "admissionDetails": "Passport-size photo",
+        "studyInScholarships": "Schwarzman Scholars Program— This is a scholarship for international students wishing to study their masters in Global Affairs at Tsinghua Universityin Bejing. The course will be taught in English and will focus on public policy, economics, business and international studies. This scholarship includes tuition fees, accommodation, travel to and from Bejing at the beginning and end of the academic year, required course books, US$4000 for personal expenses and health insurance. Applicants must be between 18 and 28 years old, have strong English language proficiency and hold an undergraduate degree from an accredited university or equivalent."
+    },
+    {
+        "countryName": "China",
+        "visaForPakistaniStudents": "JW201 or JW202 form (The State Education Ministry of China issues JW201 and JW202 to international students. The JW201 form in for those students who are going to study in China on scholarship funded by the Chinese Government whereas the JW202 form is for those students who are going to study in China in self funding).",
+        "jobWorkOpportunitiesForStudents": "Teaching English",
+        "admissionDetails": "Photocopy of your passport",
+        "mostPopularCoursesForInternationalStudents": "Computer Science is very famous in China, and most international students are interested in. As was mentioned before, Chinese technology and science are developing faster than most, if not all, other countries. The Chinese learned a lot from America’s technology and have grown it even further. Tsinghua University, Shanghai Jiaotong University, Zhejiang University, and others are the top Chinese Universities in IT. There are graduate Jobs and accessible opportunities for international students who graduate in this major to live in China",
+        "studyInScholarships": "Biomedical Sciences Scholarships– The biomedical sciences scholarships are available for students looking to study a bachelor’s in biomedical science at Zhejiang University– University of Edinburgh(ZJE). This is available to any international student who is offered a place on either the BSc Integrative Biomedical Sciences or BSc Biomedical Informatics programs at ZJE. This scholarship will cover either full or half of your tuition fees, accommodation fees, and international student medical insurance. You will also receive a living allowance of up to ¥17,000 per year (~ US$2,438)."
+    },
+    {
+        "countryName": "China",
+        "visaForPakistaniStudents": "Language Proficiency Test Certificate (IELTS, TOEFL for English language study program and HSK for Chinese taught study program) the applicant will also have to prove his proficiency in English or Chinese language during interview in Embassy for student visa.",
+        "jobWorkOpportunitiesForStudents": "Getting English teaching job in China is easiest. The teacher for English language does not have to be a native English speaker; he/she must have proficiency in the language and command over grammar. The salary for teacher mainly depends on the city of China you live but approximately you can earn 100RMB to 200RMB per hour. You can find English teaching job ads in news papers, websites and your university’s notice board as your fellow Chinese students can hire you for helping them to learn English.",
+        "admissionDetails": "Graduation diploma",
+        "mostPopularCoursesForInternationalStudents": "Some of the top-ranked Universities in IT are:",
+        "studyInScholarships": "Zhengzhou University President Scholarships– This scholarship is for international postgraduate students wishing to pursue either a full time master’s or PhD at Zhengzhou University. The scholarship includes full or partial coverage of tuition fees for master’s students, and full tuition and accommodation for PhD students.To apply, students must fill in an online application form as well as either a 800 word essay for master’s courses, or a 2000 word research proposal."
+    },
+    {
+        "countryName": "China",
+        "admissionDetails": "Official transcript of records",
+        "mostPopularCoursesForInternationalStudents": "Zhejiang University"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Translator",
+        "admissionDetails": "Personal statement",
+        "mostPopularCoursesForInternationalStudents": "Harbin Institute of Technology"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "A translator can earn $28/hr in China. The job requires a native speaker of German, Romanian, French, Hindi, Urdu, Bulgarian and many other languages to translate text into English language. Initially, the translator will work under supervision of a mentor and with time by gaining experience the salary will increase according to skills gained. It is great way to pave your way into job market and making contacts in Chinese professional sector. There are many multinational companies and telephone companies that require translators for proof reading, reviewing and translating.",
+        "admissionDetails": "English language certificate",
+        "mostPopularCoursesForInternationalStudents": "Huazhong University of Science and Technology"
+    },
+    {
+        "countryName": "China"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Voice Recording",
+        "mostPopularCoursesForInternationalStudents": "4. Business Administration"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "It is another job relating to English language proficiency. The voice recording job is related to media field. The employee would be hired to do English voice over for cartoons, commercials and how to videos. The employee will read out the lines given to them in written form in their native accent. This job will pay you $40 to $60 USD per hour. You can find voice recording job on websites or by dropping your CV directly at related company.",
+        "mostPopularCoursesForInternationalStudents": "Business administration is the field of expertise in the organization and market environment of companies. China offers many amazing studies regarding this subject. This study focuses on developing a way to formulate and achieve the business’ objectives."
+    },
+    {
+        "countryName": "China",
+        "mostPopularCoursesForInternationalStudents": "As a result, business administration relates to the whole of activities that a manager, director, or advisor must perform to market his products and services to achieve turnover and further improve the corporate results. Managers should be able to analyze and predict future conditions and implement strategies to keep their company growing. For example, Graduates in this area should be able to analyze:"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Photographer"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "The individuals with professional photography skills are not going out of money in China. You can do part time and freelance job of a photographer in China and get paid per gig. On average a professional photographer can earn $12 per hour but depending on your skills and experience you can earn more than that. You can do freelancing and part time photography assignments in weddings, exhibitions, events, concerts and corporate meetings. Since photography is not a complex skill, if you are currently planning to study abroad in China, hone your photography skills and prepare a portfolio of your work.",
+        "mostPopularCoursesForInternationalStudents": "the mission, vision, and strategy of your organization?"
+    },
+    {
+        "countryName": "China",
+        "mostPopularCoursesForInternationalStudents": "The management of your department contribute to achieving this objective?"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Graphic Designing",
+        "mostPopularCoursesForInternationalStudents": "Current business operations (people and resources) connect to this, or how could this process be organized more efficiently?"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "If you have any skill in your hand it can never go in vain. Graphic designing skill is high in demand in China. Whether you have done diploma in graphic designing or learnt it through you tube or other sources, the requirement is your ability to do graphic designing as demanded by employers. You can earn $51 USD per gig or get per hour payment in China for doing graphic designing job. In China, it is a great way to start your career in this field and work on as many projects as you can handle and get your CV ready to be a professional graphic designer in future."
+    },
+    {
+        "countryName": "China",
+        "mostPopularCoursesForInternationalStudents": "International students studying business Administration in China"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Legal Assistant"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "The job of a legal assistant is to type and handle paper work which includes proof reading of legal documents, compose legal nature contracts, performing clerical work, handle summons and complaints and preparing routine correspondence of the employer. The individuals having any sectarian or clerical experience will be preferred and those doing law degrees are first choice for this job. This job will pay you $10 USD to $20 USD per hour based on your experience.",
+        "mostPopularCoursesForInternationalStudents": "5. Chinese Language and Literature"
+    },
+    {
+        "countryName": "China",
+        "mostPopularCoursesForInternationalStudents": "You cannot study the Chinese Language elsewhere than China. It is the cradle of beautiful and ancient culture, and the native speakers of Mandarin are in China. The study of Chinese Language and Literature focuses on the cultural aspects of China. This means that the study contains: Ancient Chinese Language courses, Chinese Literature courses, Chinese History courses, and also Modern Chinese Literature and Language. International Students that are interested in the Chinese culture would fit this study."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Hotel/Cafe and restaurant Attendants",
+        "mostPopularCoursesForInternationalStudents": "Career options are translation, international relations, trade and international business, government relations, and consulting."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "The hotel and restaurant attendants in China can earn $9 USD to $10 USD per hour. The job is simple and does not require any working experience. The working hours can be according to your schedule and above all you will enhance your Chinese language proficiency which is highly demanded in job market of China for your later career."
+    },
+    {
+        "countryName": "China",
+        "mostPopularCoursesForInternationalStudents": "6. Civil Engineering"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Free Lancing",
+        "mostPopularCoursesForInternationalStudents": "The study of civil engineering covers city and country planning t include waterways, polders, roads, railways, and airports with the associated bridges, tunnels, locks, and viaducts. Land extraction, water purification, drainage, coastal defense, irrigation, dams, and sewers are the work of civil engineers. Environmental aspects play an essential role."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Online platforms have given a platform to talented and skilled workers to approach employers and demonstrate their talent and earn deserving money per gig. Fiver, Peopleperhour and up work are such websites which are serving as mediator between employees and employers. If you can do web designing, web developing, content writing, proposal writing, social media handling, you can earn $25 per hour sitting at your home. It is a great way to build your professional profile and increase your skills by doing projects.",
+        "mostPopularCoursesForInternationalStudents": "Civil Engineers are not only working on construction works. Due to the effects of climate change, many new civil engineering jobs will emerge in the future. Some examples of functions are executor/project leader at a contracting company in the road and hydraulic engineering, designer at an engineering firm, an employee at a public service, head of municipal works, technical, commercial employee, or specialist at an advisory or research institute."
+    },
+    {
+        "countryName": "China"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Internship Programs",
+        "mostPopularCoursesForInternationalStudents": "Studying Civil Engineering in China will serve your best interest and launch a professional journey. The construction industry in China is very matured due to the extensive infrastructure work that various cities are investing in."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "The most recommended and proffered part time job type in China is definitely internship. Gaining experience in the field of your study major will train you professionally, deliver required knowledge, make you understand the demands of the job market, prepare you to face professional challenges and above all make your CV ready for getting job right after completing your degree. Recruiters hiring fresh graduates who have done internship in their academic years as they are more knowledgeable and efficient and the firms do not have to train them for work. China is ahead of the game in terms of internship programs for international students. Many Chinese universities have organized on campus internship programs that not only pay them but also grant certificate at end of the internship program. There is a chance depending on your work ethic and performance you might even get a permanent job position by the end of your internship program. You can find many internship programs being run by Chinese government and universities, a few of them are enlisted below:"
+    },
+    {
+        "countryName": "China",
+        "mostPopularCoursesForInternationalStudents": "7. Mechanical Engineering"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "International Internships in Hong Kong with The Intern Group",
+        "mostPopularCoursesForInternationalStudents": "Study mechanical engineering for real experience and job prospects. Most Chinese Universities are known for their engineering prowess and research. In the mechanical engineering sector, mainly work is done on the production and maintenance of (parts of) machines and appliances. Within China, machines are produced for organizations or individuals. It involves the construction of simple tools to build large machines with multiple production lines. Machine builders are active in various markets, including the food, transport, and textile industries. Research shows that this industry is one of the best performing sectors in China. This is partly due to the automation of the production process. But also due to increasing exports to emerging markets outside China."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Connect-123 Shanghai Internships",
+        "mostPopularCoursesForInternationalStudents": "Whether you are considering a career in Mechanical Design, Auto Engineering, project management, and other related areas, China is the place to study."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Global Experiences Internships in Shanghai, China",
+        "mostPopularCoursesForInternationalStudents": "8. Architecture"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Projects Abroad Internships in China",
+        "mostPopularCoursesForInternationalStudents": "With an education in architecture, you design buildings that are safe and also fit the user’s wishes. But you can also look beyond that, with a course in spatial planning, you take care of the overall plan. You think about how new neighborhoods can best be constructed. Because of your ideas, the architecture and parks of the community form a perfect whole."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Connect-123 Summer Internships Abroad",
+        "mostPopularCoursesForInternationalStudents": "A Chinese study in architecture is built around projects and makes excellent use of a problem-solving teaching method. An example of a project from the architecture or engineering program is that students study an environment, building, or house and then give ideas about what it can be used for. Finally, the students design what emerges from the analysis, such as an office or playground."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Find your potential: Internship Abroad at Fortune 500 in China",
+        "mostPopularCoursesForInternationalStudents": "9. Electronic Engineering"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Engineering & Business Internships in China with Mentoring",
+        "mostPopularCoursesForInternationalStudents": "Electronic engineering is indispensable in Chinese society. We all use electronic devices, such as a smartphone, a coffee machine, or a car. Without an electrical engineer, these devices would not work. As an electronic engineer, it is essential that you can work accurately, be eager to learn, and be creative. Also, you need to have analytical and numerical insight."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "CAPA Shanghai: Study & Intern Abroad",
+        "mostPopularCoursesForInternationalStudents": "Electronic engineering is a multifaceted field. You can work at all levels and in different directions. This does not necessarily have to be done as an electrical engineer, but can also be done as a mechanic, draughtsman or installer."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Connect-123 Medical And Healthcare Internships",
+        "mostPopularCoursesForInternationalStudents": "10. Chinese Language Training"
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "CET Shanghai",
+        "mostPopularCoursesForInternationalStudents": "The last famous study in China is, of course: Chinese Language Training. This study can be short-term or long-term (a few weeks to a year or longer). A Chinese Language Course will focus on teaching you how to communicate using the Chinese Language and eventually how to read and write it too. Additionally, you could take the HSK (from 1 to 6) tests, which determine your level in the Chinese Language."
+    },
+    {
+        "countryName": "China",
+        "jobWorkOpportunitiesForStudents": "Paid Legal and Law Internship in Renowned Law Firms in China- Go Abroad China"
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+        "countryName": "Russia",
+        "costOfStudy": "How much does it cost to get a Bachelor's degree in Russia? After completing four-years-undergraduate programmes, students receive a bachelor's degree and a diploma of higher education. After that, students can continue their studies and take a Master programme. Training on full-time department of the Bachelor's Degree costs approximately 240-260 thousand rubles* ($ 3,430-3,715) per year. The minimum cost is 122 500 rubles ($ 1,750) per year; the maximum – 880 000 rubles ($ 12,570) per year.",
+        "costOfLiving": "3. Student accommodation costs",
+        "visaForPakistaniStudents": "Required Documents for Pakistani Students 2021 for Russian Student Visa",
+        "jobWorkOpportunitiesForStudents": "op 3 Part-Time Jobs For International Students In Russia",
+        "admissionDetails": "Admission Procedure",
+        "levelsOfEducation": "There are three levels of higher education:",
+        "mostPopularCoursesForInternationalStudents": "Still, because we are helpful, we searched and made this list of the most popular degrees you can study in Russia.",
+        "studentLife": "More and more young people from all over the globe come to Russia to explore this mysterious, but attractive country. We’ve put together a list of things international students can expect when they study in Russia.",
+        "studyInScholarships": "Russian scholarships for international students"
+    },
+    {
+        "countryName": "Russia",
+        "costOfStudy": "How much does it cost to get a Master’s degree in a Russian University? Master’s degree is awarded after two years of training and provides a deeper knowledge of the chosen major of studies. You can apply for a Master programme if you have either Bachelor’s or Specialist’s degree. Training on the full-time department of Master’s degree on average costs 260-280 thousand rubles* ($ 3,715-4,000) per year. The minimal cost is 147 000 rubles ($ 2,100) per year. Maximum – 460 000 rubles ($ 6,570) per year. How much does",
+        "costOfLiving": "In Russia, the most popular types of accommodation are:",
+        "visaForPakistaniStudents": "The required documents may vary from country to country. During your visit to Russian Embassy the authorities will give you details of documents according to your country’s requirements. The documents enlisted below are generally required from all countries:",
+        "admissionDetails": "There are five steps to complete admission process at any University of the Russian Federation:",
+        "studentLife": "1. Adapting to Life in Russia is Easy",
+        "studyInScholarships": "The School of Russian and Asian Studies (SRAS) – Lists scholarships to study abroad in Russia and other former Soviet states, most of which are specifically for US students."
+    },
+    {
+        "countryName": "Russia",
+        "costOfStudy": "How much does a Postgraduate study cost in a Russian University? Studies in postgraduate programmes last at least three years. Graduates with Master or Specialist degree can apply for a postgraduate programme, if they are interested in research and teaching. After the defense of the thesis, graduate students are awarded the degree of Candidate of Science (PhD). Training on the full-time department of the post-graduate course costs on average 280-300 thousand rubles* ($ 4,000-4,285) per year. The minimum cost is 79 300 rubles ($ 1,133) per year. The maximum – 413 000 rubles ($ 5,900) per year.",
+        "jobWorkOpportunitiesForStudents": "Although not easy to land a part-time job in Russia, international students can find good and a variety of opportunities as mentioned below:",
+        "admissionDetails": "STEP 1: HOW TO APPLY",
+        "levelsOfEducation": "1) incomplete higher education (2 years at least);",
+        "mostPopularCoursesForInternationalStudents": "Here are some good Bachelors we recommend in Russia:",
+        "studyInScholarships": "Benjamin A. Gilman Scholarships – Offers over 2,900 scholarships of up to US$5,000 for US undergraduate citizens to study or intern abroad. Applicants who are studying a foreign language (such as Russian) while abroad in a country in which the language is predominantly spoken will automatically be considered for the Critical Need Language Award, for a total award of $8,000."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "Student dormitories: 5.60–56 EUR/month, by far the cheapest option. Some universities even offer a discount if you pay for the whole year in advance.",
+        "visaForPakistaniStudents": "A Valid Passport of Applicant (must have at least 18 months validity and two blank pages, a copy of your passport’s front page would also be required)",
+        "levelsOfEducation": "2) basic higher education (4, 5 or 6 years) leading to a Bachelor's, Specialist's or Master's degree;",
+        "studentLife": "Russia is a multinational country with people from all over the globe. Students come from many countries to study in Russia and the number of international students is growing. At one Russian university, Peter the Great St. Petersburg Polytechnic University (SPbPU) the number of international students has grown to nearly 6 000 students from all over the world. Lindsey Collier, an American international student at SPbPU, explains that living in a Russian student dorm helped her integrate, make friends and changed her perspective on Russian people. “Initially, I thought that Russian people are gloomy…But when I had Russian friends, things settled down. They are always with me, take me for a walk. As soon as you overcome the emotional detachment, you understand that Russians are the best friends.”",
+        "studyInScholarships": "BP in Russia Research Scholarships – Russian scholarships of RUB 15,000 - 35,000 (~US$240-560) every month for students studying for degrees in energy and economics at one of the partner Russian universities. Applicants must be studying on state grants, have excellent grades and aim to develop in their chosen subject in the future."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "Privately rented flats: 170–395 EUR/month plus the initial deposit and monthly utilities",
+        "visaForPakistaniStudents": "One Passport Size Photograph of Applicant (Recently Taken)",
+        "jobWorkOpportunitiesForStudents": "Working at the University: Working at a Russian university while an international student is enrolled in a full-time course does not require a permit. If the school offers courses in English, there might be hiring too. The most popular job opportunity at a Russian university including teaching assistants or research assistants. If one is interested in the same, they can simply contact the professors or the International Students Office.",
+        "admissionDetails": "Students can apply online. After reading the complete information on website about tuition fees and courses, first you have to choose the course.",
+        "levelsOfEducation": "3) postgraduate higher education ( Ph. D or postdoctoral studies, that take 5-6 years or more).",
+        "mostPopularCoursesForInternationalStudents": "Bachelors in Economics in Russia",
+        "studyInScholarships": "American Councils Scholarships – Various scholarships related to Russian language training and research in Russia, including the Title VIII Research Scholar Program, a scholarship for students to conduct independent research for three to eight months in one of the selected countries in Central Asia or Eastern Europe, including Russia. The value of the awards varies between US$7,000 to $25,000, and typically includes airfare, a monthly stipend, health insurance and more."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "4. Food costs in Russia",
+        "visaForPakistaniStudents": "Letter of Invitation from Your Hosting Russian Institution (Original Letter not a Copy of It)",
+        "admissionDetails": "After choosing the course you should send us the following documents by email:",
+        "mostPopularCoursesForInternationalStudents": "Bachelors in Computer Science in Russia",
+        "studentLife": "2. Great Opportunities to Travel",
+        "studyInScholarships": "Open Doors: Russian Scholarship Project – Scholarships are available for international students from any country to study a master’s degree in mathematics, physics, computer science or economics in Russia. Offered by the Russian Association of Global Universities, the scholarships cover the entirety of tuition fees."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "Food and groceries will cost around 120–150 EUR per month, but this largely depends on your lifestyle. These are some of the average prices for food products in Russia:",
+        "visaForPakistaniStudents": "Medical Certificate (the medical examination must be taken recently at least within 3 months prior to your visit to Russia, the applicant must not be HIV positive, visa of HIV positive will be denied right away, The medical certificate must contain the date of examination, doctor’s signature and your own signature)",
+        "jobWorkOpportunitiesForStudents": "Home Tutoring: In Russia, there is a huge demand for tutors and especially language tutors. Russians pay well to English, French, Spanish, German, Chinese or Italian speakers who can teach them the language. The job usually pays around $50 per hour.",
+        "admissionDetails": "Filled Application Form",
+        "mostPopularCoursesForInternationalStudents": "Bachelors in International Business in Russia",
+        "studentLife": "Traditionally people come to Russia and visit Moscow and St. Petersburg. But more people are planning new journeys around Russia, and discovering fascinating tourist routes. Studying in Saint Petersburg allows students to visit incredible places that are situated nearby. The Republic of Karelia is considered a favorite tourist destination in the northwest of Russia. Known as the 'Land of Thousands of Lakes' because there are more than 60,000 lakes in the region, Karelia is a pleasant place to relax and keep calm, to enjoy incredible nature and find new ideas and inspiration. St. Petersburg also offers easy access to Russia’s diverse cultural heritage. Students can visit petroglyphs, Kizhi Island or Valaam monastery. Other popular attractions include Staraya Ladoga, an ancient village with a stone fortress; Shlisselburg’s island fortress of Oreshek; medieval castles of Vyborg; magnificent palaces of Pushkin; monasteries, monuments, churches and the museums of cities like Priozersk, Tikhvin, Ivangorod, Gatchina and many others.",
+        "studyInScholarships": "University-specific Russian scholarships for international students"
+    },
+    {
+        "countryName": "Russia",
+        "visaForPakistaniStudents": "Completely Filled Visa Application Form",
+        "admissionDetails": "Copy of International Passport or ID. (minimum valid for two years)",
+        "mostPopularCoursesForInternationalStudents": "If you're looking for Masters, there are plenty to choose from:",
+        "studentLife": "3. Opportunities to learn foreign languages",
+        "studyInScholarships": "Moscow Institute of Physics and Technology (MIPT) – Scholarships are available for excellent international students who demonstrate the potential for superior academic performance."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "1 loaf of bread: 0.40 EUR",
+        "visaForPakistaniStudents": "The Applicants Under 18 Years of Age Need To Provide Consent Letter From Their Parents or Guardians",
+        "jobWorkOpportunitiesForStudents": "Freelance Writing: Those with an interest in writing or who are somewhat more literary-minded can become a freelance writer in Russia. The country does not find pieces written about the country on foreign websites, for which freelance writers are hired. They can also make contributions to culture guides, online magazines, or newspapers.",
+        "admissionDetails": "Copy of Higher Secondary School Certificate (with subject details)",
+        "studentLife": "About 400 million people in the world speak Russian and learning Russian as a second language is becoming more popular. Many international students prefer to come to Russia to study Russian and the challenge of Russian-language promotion has become a federal priority. Russian universities, like SPbPU work to promote Russian-language studies and Russian language programs are very popular with international students. At SPbPU, language studies through the department of English as a Foreign Language, has a proud 50-year history. Today the traditions of the department are carried on by the Center of Russian as a Foreign Language affiliated with the High School of International Education Programs.",
+        "studyInScholarships": "HSE University – Several scholarships are available to study at HSE’s St Petersburg campus, covering 25 to 100 percent of the tuition fees of outstanding international students at all study levels."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "1 litre of milk: 0.70 EUR",
+        "visaForPakistaniStudents": "Proof Of Finance (Bank Statement of Credit Card Statement Proving You Have Enough resources to Cover Your Study and Living Expenses, If You Have Applied At Public University of Russia You Can Apply for Scholarship If You Meet Eligibility Criteria, If Granted You Can Write 6 Digit Code of Scholarship on Your Visa Application Form in Place of Bank Statement)",
+        "mostPopularCoursesForInternationalStudents": "Masters in Finance in Russia",
+        "studentLife": "International students can start their studies in Russia without Russian-language proficiency, and universities like SPbPU offer both degree programs and short-term programs in English. However, Russian proficiency is essential in areas like nuclear physics, energy engineering, space research and many students choose to complete pre-degree language courses and programs. Learning Russian also gives international students access to a wide range of elective courses in Russian Studies.",
+        "studyInScholarships": "National University of Science and Technology MISiS – Stipends are available for international students commencing English-medium MSc STEM programs, both for those who are admitted via the Russian government scholarship program and those who are covering tuition fees using their own funds."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "12 eggs: 0.90 EUR",
+        "visaForPakistaniStudents": "Travel Ticket (Valid till one year)",
+        "mostPopularCoursesForInternationalStudents": "Masters in Political Science in Russia",
+        "studentLife": "4. Great Student Benefits",
+        "studyInScholarships": "Saint Petersburg Polytechnic University – Individual scholarship opportunities are available for master's degree programs studied in English at the university. The scholarship could cover tuition fees during one semester or costs of accommodation in the university dormitory."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "1 kg of apples: 1.10 EUR",
+        "visaForPakistaniStudents": "All the documents must be translated into Russian language by a certified translator",
+        "admissionDetails": "After reviewing the above written documents, we will notify you about the acceptance or rejection. If you are accepted, then we will issue your Admission Confirmation Letter in one working day.",
+        "mostPopularCoursesForInternationalStudents": "Masters in Computer Science in Russia",
+        "studentLife": "Russia places a high value on its students, and being a student at a Russian university comes with a lot of benefits. Full-time students of state-accredited Russian universities are entitled to reduced tariffs on public transport. Full-time students of Russian universities also have the right to a 50 percent discount for travel on suburban trains (within a single region) during academic terms.",
+        "studyInScholarships": "Tomsk State University – Various grants are available for international students."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "1 kg of bananas: 0.75 EUR",
+        "mostPopularCoursesForInternationalStudents": "Masters in Mathematics in Russia",
+        "studentLife": "And student perks aren’t limited to travel discounts. Students in Russia are offered a number of discounts at museums, businesses and service providers. These range from reduced ticket prices at attractions like the Tretyakov Gallery and the Pushkin Museum to free passes to sites like the Hermitage and the Kolomenskoye Museum.",
+        "studyInScholarships": "Russian International Olympic University – The Vladimir Potanin Foundation’s Olympic Scholarships Program offers 20 Russian scholarships to study a Master of Sports Administration program at the university, providing tuition, accommodation and a monthly stipend."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "1 meal at affordable restaurants: 5.60 EUR",
+        "admissionDetails": "STEP 2: HOW TO GET INVITATION LETTER",
+        "mostPopularCoursesForInternationalStudents": "Masters in International Business in Russia",
+        "studentLife": "5. Interesting Student Life"
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "Check out other living costs in Russia.",
+        "admissionDetails": "Filled Application Form",
+        "studentLife": "With all the discounts and benefits for students, it’s no surprise that young people enjoy their time at Russia’s universities. Life in St. Petersburg is full of attractions: museums, theatres, exhibitions; lots of cafes, restaurants, and nightclubs."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "5. Transportation costs",
+        "admissionDetails": "Copy of International Passport (minimum valid for two years)",
+        "studentLife": "SPbPU student Lindsay Collier recommends “boat trip[s] on rivers and canals of St. Petersburg.” According to Collier, St. Petersburg “looks much more wonderful” from the water. Collier also attends concerts and sporting events with her Russian and international friends, as well as enjoying campus life where the students “play games, watch movies…[and] enjoy cooking together.”"
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "monthly transport pass (bus, tram, subway): 5 EUR with a student discount",
+        "admissionDetails": "Copy of School Certificate (with subject details)"
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "taxi: starting fee of 1.20 EUR; around 0.20 EUR per km",
+        "admissionDetails": "Cost of Invitation Letter 400 US$"
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "6. Extra costs in Russia",
+        "admissionDetails": "Cost of Courier 100 US$"
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "monthly phone bill: 4–5 EUR",
+        "admissionDetails": "You can send us the documents by email or by fax. Please take care that documents should be scanned properly and should be clearly readable."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "entertainment (e.g. cinema, concerts, theatre): 40–60 EUR/month",
+        "admissionDetails": "You can transfer us the payment by Western Union or Money Gram. Please send us the receipt of your payments to confirm."
+    },
+    {
+        "countryName": "Russia",
+        "costOfLiving": "private medical insurance: in the form of voluntary health insurance (VHI) policy, costing between 55–145 EUR",
+        "admissionDetails": "Invitations are issued by the State Home office and it takes 35-40 days time to issue the Invitation letter."
+    },
+    {
+        "countryName": "Russia",
+        "admissionDetails": "After receiving the documents and payment, we will send you the Original Invitation letter, Admission Confirmation letter and Visa Support letter by courier."
+    },
+    {
+        "countryName": "Russia",
+        "admissionDetails": "STEP 3: VISA"
+    },
+    {
+        "countryName": "Russia",
+        "admissionDetails": "STEP 4: ARRIVAL"
+    },
+    {
+        "countryName": "Russia",
+        "admissionDetails": "After getting visa from Russian embassy or Consulate, students should inform us about his/her flight details with date and arrival time."
+    },
+    {
+        "countryName": "Russia",
+        "admissionDetails": "One of our representatives will receive the student at the airport."
+    },
+    {
+        "countryName": "Russia",
+        "admissionDetails": "In case student will not inform us about his/her arrival, he/she will be deported back to homeland by the Immigration Authorities of Russia."
+    },
+    {
+        "countryName": "Russia",
+        "admissionDetails": "STEP 5: ADMISSION AND START OF CLASSES"
+    },
+    {
+        "countryName": "Russia",
+        "admissionDetails": "Every Student should come with full set of documents and Full First year Expenses receipt."
+    },
+    {
+        "countryName": "Russia",
+        "admissionDetails": "It is compulsory for every student to be registered at University during first three working days after arrival in Russian Federation territory."
+    },
+    {
+        "countryName": "Russia",
+        "admissionDetails": "After Arrival in Russia, student should submit the full package of documents and first year expenses as written on Admission Confirmation Letter. Our International Office staff will complete all the formalities so that you could start your classes in 4-5 working days. International Office will also extend the visa from Home Office."
+    },
+    {},
+    {},
+    {
+        "countryName": "Romania",
+        "costOfStudy": "The tuition fees you will pay depends on where you choose to study and what sort of degree you wish to pursue. A private institution will usually charge more than a public institution. On average, you should expect to pay between RON 14,000 and RON 30,000 per year for a degree in Romania. There are scholarships available, but they can be competitive. To get more information about fees, scholarships and eligibility, contact your institution.",
+        "costOfLiving": "Your living costs will depend on where you choose to live. On average, you should budget for between RON 1,400 and RON 3,300 per month. This accounts for your accommodation, groceries and travel. If you have a valid residence permit, you are able to work during your studies. As an EU/EEA student, there are no time restrictions on working. As an international student, you are permitted to work up to 4 hours per day without seeking any extra permissions. If you wish to work more than this, you will need to apply for a work permit.",
+        "visaForPakistaniStudents": "The letter of acceptance from the university has to be submitted to the Ministry of education, youth and sport in Romania. Once the ministry approves your acceptance then you can apply for the student visa. Pakistani students can apply at their nearest Romanian embassy or consulate (Romanian Diplomatic Missions Abroad) for the grant of Romanian student visa.",
+        "jobWorkOpportunitiesForStudents": "Student Jobs in Romania",
+        "admissionDetails": "ADMISSION REQUIREMENTS AND PROCEDURE IN ROMANIA",
+        "levelsOfEducation": "Education in Romania: three cycles:",
+        "mostPopularCoursesForInternationalStudents": "Degrees you may be interested in studying in Romania",
+        "studentLife": "Letting yourself a fixed monthly budget will help you and your financial sponsors prepare for your study investment for the 4-6 years. It is priority that you do this from day one of your studies in Romania. Even if finances is not an issue for you, the practice of managing your finances will be useful in your life. Simplicity is the key here. The simpler you live, the more happiness and health you invite into your life. Fortunately simpler is also more affordable!",
+        "studyInScholarships": "Romania Government Scholarship 2021:"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "International students, especially from third world non-EU countries, are required to apply for a Romanian student visa to enter Romania. Students have to pay some visa fees with the application. The amount of visa fee varies with time, therefore, it would be recommended to contact the consulate of Romania in your home country.",
+        "levelsOfEducation": "Bachelor studies with length depending on the specialty:",
+        "mostPopularCoursesForInternationalStudents": "Medicine",
+        "studentLife": "Student life here means libraries but also student pubs, clubs and many restaurants. While probably the most known thing about Romania is the legend of Dracula, Romania is much more than that. Think medieval towns, time-capsule villages, delicious cuisine, picturesque monasteries, virgin forests, majestic mountains, a blossoming art community and impressive landscape and of course, high quality education! Romania is a great place for you to study, their diplomas and degrees are recognised all over Europe and beyond.",
+        "studyInScholarships": "Host Country:"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "Students who want to study abroad in Romania should submit a correctly filled and signed the visa application form with some required documents to the Romanian embassy or consulate located in their country",
+        "jobWorkOpportunitiesForStudents": "Part time jobs are one of the financial aid that students can get. It is a form of employment wherein, the students can work on part time basis or for few hours. The working hours are less than 30 to 35 hours per week, thus students can get ample amount of time to concentrate on their studies as well. Each region has different kinds and opportunities for part time jobs in Romania that are available to the students. In order to join as a part time employee, the students should first have to research and find appropriate jobs that cater to their needs and timings. With a workweek spanning from 10-30 hours, job positions can be occupied for as long as one is a student. Student jobs form an attractive option for students that wish to improve their employability skills in connection to their academic profile",
+        "admissionDetails": "University admission Requirements",
+        "levelsOfEducation": "6 semesters (3 years) for sciences, humanities, social and economic, law, political science, fine arts and sport;",
+        "mostPopularCoursesForInternationalStudents": "Physics",
+        "studyInScholarships": "Romania"
+    },
+    {
+        "countryName": "Romania",
+        "mostPopularCoursesForInternationalStudents": "Political Science",
+        "studyInScholarships": "Scholarship By:"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "Documents Required for Romanian Student long stay visa",
+        "jobWorkOpportunitiesForStudents": "Get started on the application process for your part-time job by updating your CV and writing a cover letter that is tailored to the job description. Working and studying in Romania can be quite exciting and straining at the same time, albeit, here is a few tips to the student",
+        "admissionDetails": "Passport: travelling document",
+        "levelsOfEducation": "8 semesters (4 years) for technological sciences, engineering, technical Ingenerie, agriculture and forestry;",
+        "mostPopularCoursesForInternationalStudents": "Masters you may be interested in studying in Romania",
+        "studyInScholarships": "By the Romanian state, through the Ministry of Foreign"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "1. The Letter of acceptance from the Romanian Ministry of education",
+        "mostPopularCoursesForInternationalStudents": "Medicine",
+        "studyInScholarships": "Host Universities:"
+    },
+    {
+        "countryName": "Romania",
+        "jobWorkOpportunitiesForStudents": "Students can search for part time employment opportunities in their college premises itself.",
+        "admissionDetails": "To apply to Romanian studies, a valid passport is mandatory. Its copy must be submitted along with application form and other required documents.",
+        "levelsOfEducation": "12 semesters (six years) for general medicine, dentistry, veterinary medicine and architecture.",
+        "mostPopularCoursesForInternationalStudents": "Physics",
+        "studyInScholarships": "Romania eligible Universities"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "2. A passport with a long-term validity",
+        "jobWorkOpportunitiesForStudents": "Options such as working in the cafeteria, library, supporting the administrative department are available to students.",
+        "levelsOfEducation": "University studies of master: 2 years.",
+        "mostPopularCoursesForInternationalStudents": "Political Science"
+    },
+    {
+        "countryName": "Romania",
+        "jobWorkOpportunitiesForStudents": "One can also look for jobs nearby colleges or residence to save the time to travel.",
+        "admissionDetails": "High school diploma and minimum age:",
+        "levelsOfEducation": "Postgraduate doctoral studies (PhD): 3-4 years, which can be organized (except medical school) as regular courses, courses in reduced frequency aor online at the universities or research institutes.",
+        "studyInScholarships": "Degree level"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "3. University acceptance letter",
+        "jobWorkOpportunitiesForStudents": "Few options that students can avail outside their college premises are, working in an amusement park, grocery store, mall, showrooms, restaurants, fuel pumps, or even work from home, etc.",
+        "studyInScholarships": "Bachelor’s Degree Program"
+    },
+    {
+        "countryName": "Romania",
+        "jobWorkOpportunitiesForStudents": "There are ample amount of opportunities that students can easily avail. In Romania there is a large number of NGOs (nongovernmental organizations/associations/foundations) with activity covering all arias: education, sustainable development, disabilities, environment etc. These organisations always need volunteers to develop their activities and be useful to the community. It can be a great way to meet friends, get some hands-on work experience and give back to the community. They are also a valuable opportunity to make local friends, network and rediscover your own passions.",
+        "admissionDetails": "Having High school diploma (also culled baccalaureate, leaving diploma etc) or equivalent , giving access to university studies in issuing country is a must to apply to studies in Romania. This means that the prospective student have completed 12th Grade in the US/Canada and elsewhere. In the UK he can be in the process of completing your A-levels. He must be at least 17 years old.",
+        "studyInScholarships": "Master’s Degree Program"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "4. Tuition fees payment receipt to prove that the payment is done for a full one year",
+        "studyInScholarships": "Doctorate Degree Program"
+    },
+    {
+        "countryName": "Romania",
+        "admissionDetails": "Self finance",
+        "studyInScholarships": "Scholarship Duration of the Romania Scholarship 2021:"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "5. A bank account or a similar statement with a saving of 2500 Euros to proof that the student has sufficient means of support covering his/her study stay period specified in the visa",
+        "studyInScholarships": "Bachelor’s Degree Program (3-6 years)"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "6. A legal certificate proving that the prospective student has no criminal record",
+        "admissionDetails": "Tuition fees and living cost  during your stay in Romania: you must have your own form of financing your studies by own good economy, student loans, wonderful parents or generous sponsors or by other appropriate ways.",
+        "studyInScholarships": "Master’s Degree Program (1.5 years to 2 years)"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "7.  Health insurance coverage",
+        "admissionDetails": "For those seeking for Romanian finance assistance, they must contact the Romanian diplomatic representative in their countries or the representative of their county in Romania.",
+        "studyInScholarships": "Doctorate Degree Program (3 to 5 years)"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "8. For under 18 year student a consent letter from parents or guardian.",
+        "studyInScholarships": "Benefits of Romania Government Scholarship 2021:"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "9. Marriage certificate if applied",
+        "admissionDetails": "Good health",
+        "studyInScholarships": "Full tuition fees waiver"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "10. Airfare ticket to Romania",
+        "studyInScholarships": "Financing accommodation expenses"
+    },
+    {
+        "countryName": "Romania",
+        "visaForPakistaniStudents": "Visa applications can only be submitted to the Romanian consulates or embassies located in your home country (Romanian Diplomatic Missions Abroad)",
+        "admissionDetails": "Applicants to study in Romania must be in good health (without contagious diseases or diseases which is not compatible with the future profession) and display good social behavior and ability to integrate into a mature studying environment as well as interact with people of all colors and nationalities.",
+        "studyInScholarships": "A monthly financial aid;"
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "For undergraduate students 65 EURO"
+    },
+    {
+        "countryName": "Romania",
+        "admissionDetails": "Admission requirements and procedure to study in Romania differ according to the nationality of the students and are grouped in two categories: students from EU, EEA an Swiss confederation and student from other countries.",
+        "studyInScholarships": "For master’s students 75 EURO"
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "For Ph.D. students 85 EURO"
+    },
+    {
+        "countryName": "Romania"
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "Eligibility Criteria of Romania Government Scholarship 2021:"
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "All international students may apply."
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "A candidate must submit the present academic documents from an accredited institute."
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "A candidate must apply within the enrolment dates."
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "A candidate must have good health."
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "A candidate can apply in all fields except pharmacy, dentistry, or medicine."
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "All bachelor’s and master’s students would take courses in Romania."
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "Candidates who don’t know the Romanian language will have to take a year Romanian language course."
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "How to Apply for the Romania Government Scholarship 2021?"
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "All applications will be sent electronically or physically preferably via diplomatic missions of Romania."
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "Documents sending via email will not be accepted."
+    },
+    {
+        "countryName": "Romania",
+        "studyInScholarships": "Don’t send directly to the MFA or to the MNE."
+    },
+    {},
+    {
+        "countryName": "Belarus",
+        "costOfStudy": "Tuition fees",
+        "costOfLiving": "The official cost of living for Belarus is stated to have been $115 as of 2019; however, living costs may vary from one city to another and by lifestyle. Generally, estimated annual living costs average from $1200 to $1500 while dormitory rent goes between $40 and $60 per month. Public transportation is also very well developed in the country, making transport very convenient and affordable, allowing transportation fees to start from as little as $0.30.",
+        "visaForPakistaniStudents": "Required documents at Embassy of Belarus for student visa",
+        "jobWorkOpportunitiesForStudents": "Chances to get part-time jobs are reasonably good, most of the students work in international call centers and English teaching schools but it is not limited to just that some of them have opened restaurants/cafes. In the end it’s about your desire to work, if you really want to work you will get it easily.",
+        "admissionDetails": "Admission requirements",
+        "levelsOfEducation": "Education in Belarus is taught at manyuniversities and the degree levels foreign students may study are bachelor and masters.",
+        "mostPopularCoursesForInternationalStudents": "Most popular courses in Belarus among foreign students",
+        "studentLife": "The life of students in Belarus is interesting and creative. Student clubs prepare students for participation in various competitions, festivals, and concert programs. Different celebrations are organized during the year.",
+        "studyInScholarships": "Best Scholarships in Belarus for International Students"
+    },
+    {
+        "countryName": "Belarus",
+        "costOfStudy": "Tuition fees in Belarus depend on the course of study, University and duration of course. Generally though, international students pay between $2,000 and $4,000.",
+        "admissionDetails": "Relevant secondary or university certificate for undergraduates and postgraduates respectively",
+        "levelsOfEducation": "Bachelor degree consists of 4 Years at any university in Belarus while masters in Belarus is taught for 2 Years at all state owned universities in Belarus.",
+        "studentLife": "Universities place free sports facilities and libraries at the students’ disposal which encourages their creative activities. After university graduation, young specialists have an opportunity to continue postgraduate education.",
+        "studyInScholarships": "1. Erasmus+ Programme"
+    },
+    {
+        "countryName": "Belarus",
+        "costOfStudy": "This makes it one of the cheapest destinations in Europe in terms of tuition fees.",
+        "visaForPakistaniStudents": "1:Valid International Passport",
+        "jobWorkOpportunitiesForStudents": "As a student, you can get paid to teach English in Belarus with a TEFL/TESOL certification. A job in teaching English in Belarus is a fantastic way to live and get paid to pay your tuition! Armed with an International TEFL Academy TEFL/TESOL certification, you will be able to work in Belarus, anywhere, teaching English while getting paid.",
+        "admissionDetails": "Scanned copy of passport",
+        "mostPopularCoursesForInternationalStudents": "General medicine is the most popular program among foreign students and they come to Belarus for studying general medicine course at one of the four state medical universities.",
+        "studentLife": "Here, training of the scientific personnel with the highest qualifications is conducted with granting scientific degrees of Candidate of Science.",
+        "studyInScholarships": "2. Visegrad Scholarship Program"
+    },
+    {
+        "countryName": "Belarus",
+        "admissionDetails": "Processing fees which varies according to university or program",
+        "studentLife": "International students are not obliged to start their study with the preparatory year. Students from foreign countries are trained at faculties which are available at all universities of Belarus. Instruction in all main specialties is provided.",
+        "studyInScholarships": "3. German Academic Exchange Service (DAAD)"
+    },
+    {
+        "countryName": "Belarus",
+        "visaForPakistaniStudents": "2:Official study invitation approved by Migration department of Belarus",
+        "jobWorkOpportunitiesForStudents": "Beyond the aforementioned, institutions engage tirelessly in also acquiring internships for students through their faculties which relieves the workload on students when preparing for their industrial years.",
+        "mostPopularCoursesForInternationalStudents": "Dentistry is also very popular program among foreign students who choose Belarus for their study abroad destination.",
+        "studyInScholarships": "4. Boren Awards"
+    },
+    {
+        "countryName": "Belarus",
+        "admissionDetails": "The following documents must be presented in Belarus",
+        "studentLife": "Practical training for students are organized in research centers, specialized seminars to create an environment of competitive academic wellness amongst student every time and again. There are youth organizations that implement such projects at the leadership level.",
+        "studyInScholarships": "5. Fulbright"
+    },
+    {
+        "countryName": "Belarus",
+        "visaForPakistaniStudents": "3:Educational Certificates (Original)",
+        "jobWorkOpportunitiesForStudents": "Owing to its relatively good economy, most Belarusian students will have gained paramount knowhow in the industries and companies at the end of their academic courses.",
+        "mostPopularCoursesForInternationalStudents": "For studying pharmacy also huge number of foreign students come to Belarus."
+    },
+    {
+        "countryName": "Belarus",
+        "admissionDetails": "Evidence of payment of University fees at the airport"
+    },
+    {
+        "countryName": "Belarus",
+        "visaForPakistaniStudents": "4:Birth Certificate (Original)",
+        "admissionDetails": "Medical certificate",
+        "mostPopularCoursesForInternationalStudents": "Nursing is also one of the most popular course in Belarus among foreign students and huge number of foreign students come to Belarus for studying nursing courses."
+    },
+    {
+        "countryName": "Belarus",
+        "admissionDetails": "Travel documents"
+    },
+    {
+        "countryName": "Belarus",
+        "visaForPakistaniStudents": "5:Medical Fitness Certificate (By a registered doctor with stamp)",
+        "admissionDetails": "Birth certificate",
+        "mostPopularCoursesForInternationalStudents": "Engineering courses are taught for foreign students in Belarus at many state technical universities and foreign students has always huge presence at these engineering universities."
+    },
+    {
+        "countryName": "Belarus",
+        "admissionDetails": "Passport sized photos: the number to be determined by school"
+    },
+    {
+        "countryName": "Belarus",
+        "visaForPakistaniStudents": "6:Passport size photographs 10",
+        "admissionDetails": "Original certificates",
+        "mostPopularCoursesForInternationalStudents": "Humanities courses also attract huge number of foreign students to Belarus as Belarus has the best state universities which offer humanities courses."
+    },
+    {
+        "countryName": "Belarus"
+    },
+    {
+        "countryName": "Belarus",
+        "visaForPakistaniStudents": "7:Medical Insurance"
     }
 ]

@@ -21,6 +21,7 @@ router.get('/national', nationalUniversityController.findAll);
 router.post('/national/find_your_uni', nationalUniversityController.find_your_uni);
 router.get('/findUniOnRange', nationalUniversityController.findWithRange);
 router.get('/international', nationalUniversityController.findAllInternational);
+router.get('/international/country', nationalUniversityController.get_inuni_country);
 
 router.get('/national/:id', nationalUniversityController.findOne);
 router.put('/national/:id', nationalUniversityController.update);

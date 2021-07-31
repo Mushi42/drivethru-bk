@@ -188,6 +188,20 @@ NationalUniversityService.findAllInternational = async ({ body, query }) => {
         throw error;
     }
 };
+NationalUniversityService.get_inuni_country = async ({ body, query }) => {
+    try {
+        const options = query;
+        const data = {};
+        data.universities = await InternationalUniversity.distinct('countryName')
+        if (data) {
+            return { type: "success", message: "Record found!", data };
+        } else {
+            return { type: "bad", message: "Record not found!" };
+        }
+    } catch (error) {
+        throw error;
+    }
+};
 NationalUniversityService.get_uni_dep_city = async ({ body, query }) => {
     try {
         const options = query;

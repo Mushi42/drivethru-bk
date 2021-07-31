@@ -2,17 +2,17 @@ const mongoose = require("mongoose");
 
 
 const collectionSchema = new mongoose.Schema({
-   countryName: String,
-   costOfStudy: String,
-   costOfLiving: String,
-   visaForPakistaniStudents: String,
-   jobWorkOpportunitiesForStudents: String,
-   admissionDetails: String,
-   levelsOfEducation: String,
-   mostPopularCoursesForInternationalStudents: String,
-   studentLife: String,
-   studyInScholarships: String,
+   countryName: { type: String, trim: true },
+   costOfStudy: { type: String, trim: true },
+   costOfLiving: { type: String, trim: true },
+   visaForPakistaniStudents: { type: String, trim: true },
+   jobWorkOpportunitiesForStudents: { type: String, trim: true },
+   admissionDetails: { type: String, trim: true },
+   levelsOfEducation: { type: String, trim: true },
+   mostPopularCoursesForInternationalStudents: { type: String, trim: true },
+   studentLife: { type: String, trim: true },
+   studyInScholarships: { type: String, trim: true },
 }, { timestamps: true });
 
 
-module.exports = mongoose.model("uni", collectionSchema);
+module.exports = mongoose.model("internationalUni", collectionSchema);

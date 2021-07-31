@@ -1,5 +1,7 @@
 const express = require("express");
 const nodemailer = require("nodemailer");
+const { protectRoutes, adminOnly } = require('../middleware');
+const { User } = require('../models');
 
 const router = express.Router();
 
@@ -29,8 +31,13 @@ router.post("/sendMail", async (req, res) => {
 
     res.send(info)
 });
-router.post("/counselling_session", async (req, res) => {
+router.post("/counselling_session", protectRoutes, async (req, res) => {
 
+    const { user } = req
+
+    const userFound = await User.findOne({ _id: user.userId})
+
+    if (!userFound) res.sendStatus(401)
     let testAccount = await nodemailer.createTestAccount();
 
 
@@ -50,10 +57,10 @@ router.post("/counselling_session", async (req, res) => {
         from: 'drivethru.pk@gmail.com',
         to: 'aqibijaz3@gmail.com',
         subject: "Book Counselling Session",
-        text: `Email : ${req.body.email}\nWhat help you ? : ${req.body.wantHelp}\nReason : ${req.body.reason}`
+        text: `Email : ${userFound.email}\nWhat help you ? : ${req.body.wantHelp}\nReason : ${req.body.reason}`
     });
 
-    res.send(info)
+    res.send("Email Sent")
 });
 
 module.exports = router
