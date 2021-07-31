@@ -39,7 +39,13 @@ exports.excelFile = excelFile = excelFile => new Promise((resolve, reject) => {
                 if (element.filter(ele => ele === null).length != 6) {
 
                     obj.name = !element[0] ? "" : element[0];
-                    obj.fee = !element[1] ? "" : element[1];
+                    const [lowfee, highfee] = !element[1] ? "" : element[1].split('-');
+
+                    obj.fee = {
+                        lowfee,
+                        highfee: !highfee ? "" : highfee.split('k').join('')
+                    }
+
                     obj.city = !element[2] ? "" : element[2];
                     obj.facutly = !element[3] ? "" : element[3];
                     obj.department = !element[4] ? "" : element[4];
@@ -147,7 +153,7 @@ exports.uploadFileS3 = uploadFile = (file, fileSize, fileStoragePath) => new Pro
 
             Bucket: 'drivethrumedia-bucket',
 
-            Key: file.name,
+            Key:  `${Date.now()}-` + file.name ,
 
             Body: readStream
 

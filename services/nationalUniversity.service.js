@@ -88,6 +88,37 @@ NationalUniversityService.findAll = async ({ body, query }) => {
     }
 };
 
+const makeReg = (name) => {
+    const reg =  new RegExp(name)
+    return reg;
+}
+
+NationalUniversityService.find_your_uni = async ({ body, query }) => {
+    try {
+        let { name, department, city, } = body;
+        if (name) {
+            name = makeReg(name);
+
+        }
+
+        department= makeReg(department);
+        city = makeReg(city);
+
+        const data = await NationalUniversity.find({
+            $or: [
+                { name: { $regex: name, $options: 'i' } },
+            ]
+        });
+        if (data.length > 0) {
+            return { type: "success", message: "Record found!", data };
+        } else {
+            return { type: "bad", message: "Record not found!" };
+        }
+    } catch (error) {
+        throw error;
+    }
+};
+
 NationalUniversityService.findWithRange = async ({ body, query }) => {
     try {
         const options = query;
