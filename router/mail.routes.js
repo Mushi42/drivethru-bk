@@ -14,14 +14,14 @@ router.post("/sendMail", async (req, res) => {
         port: 587,
         secure: false,
         auth: {
-            user: 'musharaf42@gmail.com',
-            pass: 'xrugxdytaahohrqt',
+            user: 'drivethru.pk@gmail.com',
+            pass: 'aorntzlgmzhyojuw',
         },
     });
 
 
     let info = await transporter.sendMail({
-        from: 'musharaf42@gmail.com',
+        from: 'drivethru.pk@gmail.com',
         to: 'musharaf42@gmail.com',
         subject: req.body.subject,
         text: `Name : ${req.body.name}\nContact : ${req.body.phone}\nEmail : ${req.body.email}\nDescription :  ${req.body.description}`
