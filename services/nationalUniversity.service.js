@@ -208,7 +208,10 @@ NationalUniversityService.get_uni_dep_city = async ({ body, query }) => {
         const data = {};
         data.cities = await NationalUniversity.distinct('city')
         data.universities = await NationalUniversity.distinct('name')
-        data.departments = await NationalUniversity.distinct('department')
+        data.departments = await NationalUniversity.distinct('department');
+
+        data.cities = data.cities.filter(ele => ele != "")
+        data.universities = data.universities.filter(ele => ele != "")
         if (data) {
             return { type: "success", message: "Record found!", data };
         } else {
