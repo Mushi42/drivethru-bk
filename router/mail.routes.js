@@ -22,7 +22,7 @@ router.post("/sendMail", async (req, res) => {
 
     let info = await transporter.sendMail({
         from: 'drivethru.pk@gmail.com',
-        to: 'musharaf42@gmail.com',
+        to: 'aqibijaz3@gmail.com',
         subject: req.body.subject,
         text: `Name : ${req.body.name}\nContact : ${req.body.phone}\nEmail : ${req.body.email}\nDescription :  ${req.body.description}`
     });
