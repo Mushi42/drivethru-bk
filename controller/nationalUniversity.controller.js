@@ -68,6 +68,15 @@ NationalUniversityController.findAll = async (req, res) => {
     }
 };
 
+NationalUniversityController.findWithRange = async (req, res) => {
+    try {
+        const data = await NationalUniversityService.findWithRange(req);
+        setResponse(res, data);
+    } catch (error) {
+        setResponse(res, { type: 'serverError', data: error })
+    }
+};
+
 NationalUniversityController.get_uni_dep_city = async (req, res) => {
     try {
         const data = await NationalUniversityService.get_uni_dep_city(req);

@@ -71,6 +71,8 @@ NationalUniversityService.findOne = async (req) => {
     }
 };
 
+
+
 NationalUniversityService.findAll = async ({ body, query }) => {
     try {
         const options = query;
@@ -106,6 +108,23 @@ NationalUniversityService.find_your_uni = async ({ body, query }) => {
             $or: [
                 { name: { $regex: name, $options: 'i' } },
             ]
+        });
+        if (data.length > 0) {
+            return { type: "success", message: "Record found!", data };
+        } else {
+            return { type: "bad", message: "Record not found!" };
+        }
+    } catch (error) {
+        throw error;
+    }
+};
+
+NationalUniversityService.findWithRange = async ({ body, query }) => {
+    try {
+        const options = query;
+        console.log('options', options)
+        const data = await NationalUniversity.find({
+            fee: { $gte: options.low, $lte: options.high }
         });
         if (data.length > 0) {
             return { type: "success", message: "Record found!", data };
