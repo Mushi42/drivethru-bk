@@ -129,11 +129,27 @@ NationalUniversityService.findWithRange = async ({ body, query }) => {
                 'department': options.department,
                 'city': options.city
             });
-        } else if (options.department && !options.city && !options.low) {
+        } 
+        else if (options.department && !options.city && !options.low) {
             data = await NationalUniversity.find({
                 'department': options.department,
             });
-        } else if (!options.department && options.city && !options.low) {
+        } 
+        else if (options.department && !options.city && options.low) {
+            data = await NationalUniversity.find({
+                'department': options.department,
+                'fee.lowfee': { $gte: options.low },
+                'fee.highfee': { $lte: options.high }
+            });
+        } 
+        else if (!options.department && options.city && options.low) {
+            data = await NationalUniversity.find({
+                'department': options.department,
+                'fee.lowfee': { $gte: options.low },
+                'fee.highfee': { $lte: options.high }
+            });
+        } 
+        else if (!options.department && options.city && !options.low) {
             data = await NationalUniversity.find({
                 'city': options.city
             });
