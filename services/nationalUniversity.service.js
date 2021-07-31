@@ -70,9 +70,6 @@ NationalUniversityService.findOne = async (req) => {
         throw error;
     }
 };
-
-
-
 NationalUniversityService.findAll = async ({ body, query }) => {
     try {
         const options = query;
@@ -180,6 +177,7 @@ NationalUniversityService.findWithRange = async ({ body, query }) => {
 NationalUniversityService.findAllInternational = async ({ body, query }) => {
     try {
         const options = query;
+        console.log(options)
         const data = await InternationalUniversity.find(options);
         if (data.length > 0) {
             return { type: "success", message: "Record found!", data };

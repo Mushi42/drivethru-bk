@@ -22,10 +22,12 @@ router.post('/national/find_your_uni', nationalUniversityController.find_your_un
 router.get('/findUniOnRange', nationalUniversityController.findWithRange);
 router.get('/international', nationalUniversityController.findAllInternational);
 
-
 router.get('/national/:id', nationalUniversityController.findOne);
 router.put('/national/:id', nationalUniversityController.update);
 router.delete('/national/:id', nationalUniversityController.purge);
+
+//InternationalRoutes
+
 
 
 module.exports = router;
