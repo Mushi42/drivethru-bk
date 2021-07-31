@@ -20,8 +20,7 @@ const collectionSchema = new mongoose.Schema({
         trim: true
     },
     fee: {
-        type: String,
-        trim: true
+        type: Object,
     },
     department: {
         type: String,

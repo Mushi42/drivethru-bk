@@ -31,6 +31,15 @@ NationalUniversityController.bulkCreate = async (req, res) => {
         setResponse(res, { type: 'serverError', data: error })
     }
 };
+NationalUniversityController.find_your_uni = async (req, res) => {
+    try {
+        const data = await NationalUniversityService.find_your_uni(req);
+        setResponse(res, data)
+    } catch (error) {
+        console.log('Error ', error);
+        setResponse(res, { type: 'serverError', data: error })
+    }
+};
 NationalUniversityController.internationalBulkCreate = async (req, res) => {
     try {
         const data = await NationalUniversityService.internationalBulkCreate(req);

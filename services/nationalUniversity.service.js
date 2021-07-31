@@ -30,11 +30,11 @@ NationalUniversityService.bulkCreate = async (req) => {
     try {
         const { universities } = req.body;
 
-        if(!universities ||!Array.isArray(universities) || !universities.length) {
+        if (!universities || !Array.isArray(universities) || !universities.length) {
             return { type: "bad", message: `Please provide valid data` };
         }
 
-        const createdUniversities = await  NationalUniversity.insertMany(universities)
+        const createdUniversities = await NationalUniversity.insertMany(universities)
 
         return { type: "success", message: `National University created`, data: createdUniversities };
     } catch (error) {
@@ -45,11 +45,11 @@ NationalUniversityService.internationalBulkCreate = async (req) => {
     try {
         const { universities } = req.body;
 
-        if(!universities ||!Array.isArray(universities) || !universities.length) {
+        if (!universities || !Array.isArray(universities) || !universities.length) {
             return { type: "bad", message: `Please provide valid data` };
         }
 
-        const createdUniversities = await  InternationalUniversity.insertMany(universities)
+        const createdUniversities = await InternationalUniversity.insertMany(universities)
 
         return { type: "success", message: `International University created`, data: createdUniversities };
     } catch (error) {
@@ -76,6 +76,37 @@ NationalUniversityService.findAll = async ({ body, query }) => {
         const options = query;
         console.log('options', options)
         const data = await NationalUniversity.find(options);
+        if (data.length > 0) {
+            return { type: "success", message: "Record found!", data };
+        } else {
+            return { type: "bad", message: "Record not found!" };
+        }
+    } catch (error) {
+        throw error;
+    }
+};
+
+const makeReg = (name) => {
+    const reg =  new RegExp(name)
+    return reg;
+}
+
+NationalUniversityService.find_your_uni = async ({ body, query }) => {
+    try {
+        let { name, department, city, } = body;
+        if (name) {
+            name = makeReg(name);
+
+        }
+
+        department= makeReg(department);
+        city = makeReg(city);
+
+        const data = await NationalUniversity.find({
+            $or: [
+                { name: { $regex: name, $options: 'i' } },
+            ]
+        });
         if (data.length > 0) {
             return { type: "success", message: "Record found!", data };
         } else {
