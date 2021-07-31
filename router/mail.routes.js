@@ -29,5 +29,31 @@ router.post("/sendMail", async (req, res) => {
 
     res.send(info)
 });
+router.post("/counselling_session", async (req, res) => {
+
+    let testAccount = await nodemailer.createTestAccount();
+
+
+    let transporter = nodemailer.createTransport({
+        service: 'gmail',
+        host: 'smtp.gmail.com',
+        port: 587,
+        secure: false,
+        auth: {
+            user: 'drivethru.pk@gmail.com',
+            pass: 'aorntzlgmzhyojuw',
+        },
+    });
+
+
+    let info = await transporter.sendMail({
+        from: 'drivethru.pk@gmail.com',
+        to: 'aqibijaz3@gmail.com',
+        subject: "Book Counselling Session",
+        text: `Email : ${req.body.email}\nWant Help : ${req.body.wantHelp}\Reason : ${req.body.reason}`
+    });
+
+    res.send(info)
+});
 
 module.exports = router
