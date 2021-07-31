@@ -123,12 +123,35 @@ NationalUniversityService.findWithRange = async ({ body, query }) => {
     try {
         const options = query;
         console.log('options', options)
-        const data = await NationalUniversity.find({
-            'city': options.city,
-            'department': options.department,
-            'fee.lowfee': { $gte: options.low },
-            'fee.highfee': { $lte: options.high }
-        });
+        var data = []
+        if (options.department && options.city && !options.low) {
+            data = await NationalUniversity.find({
+                'department': options.department,
+                'city': options.city
+            });
+        } else if (options.department && !options.city && !options.low) {
+            data = await NationalUniversity.find({
+                'department': options.department,
+            });
+        } else if (!options.department && options.city && !options.low) {
+            data = await NationalUniversity.find({
+                'city': options.city
+            });
+        } else if (!options.department && options.city && !options.low) {
+            data = await NationalUniversity.find({
+                'fee.lowfee': { $gte: options.low },
+                'fee.highfee': { $lte: options.high }
+            });
+
+        } else if (options.department && options.city && options.low) {
+            data = await NationalUniversity.find({
+                'department': options.department,
+                'city': options.city,
+                'fee.lowfee': { $gte: options.low },
+                'fee.highfee': { $lte: options.high }
+            });
+        }
+
         if (data.length > 0) {
             return { type: "success", message: "Record found!", data };
         } else {
