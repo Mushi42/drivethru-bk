@@ -50,7 +50,7 @@ router.post("/counselling_session", async (req, res) => {
         from: 'drivethru.pk@gmail.com',
         to: 'aqibijaz3@gmail.com',
         subject: "Book Counselling Session",
-        text: `Email : ${req.body.email}\nWant Help : ${req.body.wantHelp}\Reason : ${req.body.reason}`
+        text: `Email : ${req.body.email}\nWhat help you ? : ${req.body.wantHelp}\nReason : ${req.body.reason}`
     });
 
     res.send(info)
