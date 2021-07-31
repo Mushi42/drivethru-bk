@@ -38,14 +38,15 @@ exports.excelFile = excelFile = excelFile => new Promise((resolve, reject) => {
 
                 if (element.filter(ele => ele === null).length != 6) {
 
-                    obj.name = !element[0] ? "Coming soon" : element[0];
-                    obj.city = !element[1] ? "" : element[1];
-                    obj.facutly = !element[2] ? "" : element[2];
-                    obj.department = !element[3] ? "" : element[3];
-                    obj.eligibility = !element[4] ? "" : element[4];
-                    obj.date = !element[5] ? "" : element[5];
-                    obj.test = !element[6] ? "" : element[6];
-                    obj.years_of_graduation = !element[7] ? "" : element[7];
+                    obj.name = !element[0] ? "" : element[0];
+                    obj.fee = !element[1] ? "" : element[1];
+                    obj.city = !element[2] ? "" : element[2];
+                    obj.facutly = !element[3] ? "" : element[3];
+                    obj.department = !element[4] ? "" : element[4];
+                    obj.eligibility = !element[5] ? "" : element[5];
+                    obj.date = !element[6] ? "" : element[6];
+                    obj.test = !element[7] ? "" : element[7];
+                    obj.years_of_graduation = !element[8] ? "" : element[8];
                     records.push(obj);
                 }
 
