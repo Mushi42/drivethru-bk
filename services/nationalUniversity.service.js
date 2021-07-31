@@ -153,7 +153,7 @@ NationalUniversityService.findWithRange = async ({ body, query }) => {
             data = await NationalUniversity.find({
                 'city': options.city
             });
-        } else if (!options.department && options.city && !options.low) {
+        } else if (!options.department && !options.city && options.low) {
             data = await NationalUniversity.find({
                 'fee.lowfee': { $gte: options.low },
                 'fee.highfee': { $lte: options.high }
