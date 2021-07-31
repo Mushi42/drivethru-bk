@@ -89,7 +89,7 @@ NationalUniversityService.findAll = async ({ body, query }) => {
 };
 
 const makeReg = (name) => {
-    const reg =  new RegExp(name)
+    const reg = new RegExp(name)
     return reg;
 }
 
@@ -101,7 +101,7 @@ NationalUniversityService.find_your_uni = async ({ body, query }) => {
 
         }
 
-        department= makeReg(department);
+        department = makeReg(department);
         city = makeReg(city);
 
         const data = await NationalUniversity.find({
@@ -124,7 +124,10 @@ NationalUniversityService.findWithRange = async ({ body, query }) => {
         const options = query;
         console.log('options', options)
         const data = await NationalUniversity.find({
-            fee: { $gte: options.low, $lte: options.high }
+            'city': options.city,
+            'department': options.department,
+            'fee.lowfee': { $gte: options.low },
+            'fee.highfee': { $lte: options.high }
         });
         if (data.length > 0) {
             return { type: "success", message: "Record found!", data };
