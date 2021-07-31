@@ -18,6 +18,7 @@ router.post('/international/bulk', nationalUniversityController.internationalBul
 
 router.get('/national/get_uni_dep_city', nationalUniversityController.get_uni_dep_city);
 router.get('/national', nationalUniversityController.findAll);
+router.get('/findUniOnRange', nationalUniversityController.findWithRange);
 router.get('/international', nationalUniversityController.findAllInternational);
 
 

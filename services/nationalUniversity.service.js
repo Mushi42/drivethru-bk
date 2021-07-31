@@ -30,11 +30,11 @@ NationalUniversityService.bulkCreate = async (req) => {
     try {
         const { universities } = req.body;
 
-        if(!universities ||!Array.isArray(universities) || !universities.length) {
+        if (!universities || !Array.isArray(universities) || !universities.length) {
             return { type: "bad", message: `Please provide valid data` };
         }
 
-        const createdUniversities = await  NationalUniversity.insertMany(universities)
+        const createdUniversities = await NationalUniversity.insertMany(universities)
 
         return { type: "success", message: `National University created`, data: createdUniversities };
     } catch (error) {
@@ -45,11 +45,11 @@ NationalUniversityService.internationalBulkCreate = async (req) => {
     try {
         const { universities } = req.body;
 
-        if(!universities ||!Array.isArray(universities) || !universities.length) {
+        if (!universities || !Array.isArray(universities) || !universities.length) {
             return { type: "bad", message: `Please provide valid data` };
         }
 
-        const createdUniversities = await  InternationalUniversity.insertMany(universities)
+        const createdUniversities = await InternationalUniversity.insertMany(universities)
 
         return { type: "success", message: `International University created`, data: createdUniversities };
     } catch (error) {
@@ -71,11 +71,30 @@ NationalUniversityService.findOne = async (req) => {
     }
 };
 
+
+
 NationalUniversityService.findAll = async ({ body, query }) => {
     try {
         const options = query;
         console.log('options', options)
         const data = await NationalUniversity.find(options);
+        if (data.length > 0) {
+            return { type: "success", message: "Record found!", data };
+        } else {
+            return { type: "bad", message: "Record not found!" };
+        }
+    } catch (error) {
+        throw error;
+    }
+};
+
+NationalUniversityService.findWithRange = async ({ body, query }) => {
+    try {
+        const options = query;
+        console.log('options', options)
+        const data = await NationalUniversity.find({
+            fee: { $gte: options.low, $lte: options.high }
+        });
         if (data.length > 0) {
             return { type: "success", message: "Record found!", data };
         } else {
