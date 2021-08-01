@@ -118,7 +118,8 @@ const userSchema = new mongoose.Schema({
     personalInformation: PersonalInformation,
   },
   googleAuth : {
-    goId: Number,
+   googleId: String,
+
   },
   faceBookAuth : {
     fbId: Number

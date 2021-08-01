@@ -81,7 +81,50 @@ UserService.completeProfile = async (req) => {
 
 UserService.signIn = async ({ body }) => {
   try {
-    const { contact, password } = body;
+    const { contact, password, socialAuth } = body;
+
+    if (typeof socialAuth == 'object') {
+      const { googleId, fullName,
+        email,
+        profileImage, } = socialAuth;
+
+      let userFound = await User.findOne({ "googleAuth.googleId": googleId });
+
+      if (userFound == null) {
+
+        const userData = {
+          googleAuth: {
+            googleId: googleId,
+
+          }
+        };
+        const userEmail = await User.findOne({ email: email });
+
+        if (userEmail) return { type: "bad", message: "Email already exist!" };
+
+        userData.email = email;
+        userData.fullName = fullName;
+        userData.profileImage = profileImage;
+        userData.role = 'student';
+        userData.studentId = Date.now();
+        googleAuth = {
+          googleId: googleId,
+
+        }
+        userFound = await User.create(userData);
+
+      }
+
+      return {
+        type: "success",
+        message: "You are logged In Successfully",
+        data: { token: `Bearer ${await userHelper.generarteToken(userFound)}` },
+      };
+
+    }
+
+
+
     const user = await User.findOne({
       $or: [{ contact: contact }, { email: contact }],
     }).select("+password");
@@ -98,7 +141,7 @@ UserService.signIn = async ({ body }) => {
       data: { token: `Bearer ${await userHelper.generarteToken(user)}` },
     };
   } catch (error) {
-    // console.log('Error', error);
+    console.log('Error', error);
     throw error;
   }
 };
@@ -147,7 +190,7 @@ UserService.update = async ({ params, body }) => {
       };
     else return { type: "bad", message: `user not found` };
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     throw error;
   }
 };
